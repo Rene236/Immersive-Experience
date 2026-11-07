@@ -1,119 +1,1430 @@
-import { PortfolioItem } from '../types';
+<!doctype html>
+<html lang="ko" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>서브컬처 IP 몰입경험 디렉터 | 윤예린</title>
+  <meta name="description" content="서브컬처 팬덤 행사·팝업 스토어 및 세계관 몰입 F&B 경험 기획 총괄 디렉터 윤예린 공식 포트폴리오 및 팝업 프로젝트 파트너십 안내" />
+  <meta property="og:title" content="서브컬처 IP 몰입경험 디렉터 | 윤예린" />
+  <meta property="og:description" content="획일화된 팬덤 행사, IP 세계관에 완벽히 몰입하다. 압도적 퀄리티의 오프라인 팝업 및 F&B 경험 기획·총괄" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
 
-export const portfolioItems: PortfolioItem[] = [
-  {
-    id: 'space-immersion',
-    category: 'space',
-    categoryLabel: '공간 무드보드 & 연출',
-    title: 'HONGDAE ARCHIVE',
-    subTitle: '완벽한 세계관 구현',
-    brandBadge: 'ARCHIVE STUDIO',
-    image: '/src/assets/images/regenerated_image_1794013841232.png',
-    stats: '공간 만족도 98.4% · 관람 체류시간 2.5배',
-    description: '기존 카페의 틀을 깬, 특정 IP만을 위한 몰입형 인테리어와 시각적 장치 연출. 네오 도쿄 서브컬처 테마를 살린 스트리트 갤러리형 팝업 스토어.',
-    clientType: 'B2B 게임 IP 퍼블리셔',
-    details: {
-      overview: '사이버펑크 및 서브컬처 애니메이션 IP의 신작 출시를 기념한 홍대 인근 45평 규모 몰입형 팝업 전시.',
-      challenge: '기존 대관 상가의 밋밋한 화이트 인테리어로 인해 IP 고유의 딥한 세계관과 몰입감이 분절되는 문제.',
-      solution: 'AI 기반 사전 무드보드 렌더링으로 3일 만에 비주얼 기조를 확립하고, 모듈형 네온 사이니지와 조명 디렉팅으로 시각 몰입도를 극대화.',
-      results: [
-        '단일 행사 총 누적 방문객 420명 달성',
-        '외주 시공비 대비 62% 예산 절감',
-        '팬덤 커뮤니티 내 포토존 인증 게시물 850+건 생성'
-      ],
-      tags: ['공간 기획', '조명 연출', '네온 사이니지', '홍대 상권'],
-      features: ['맞춤형 포토부스 동선', '세계관 프로젝션 맵핑', '모듈형 어패럴 디스플레이']
-    }
-  },
-  {
-    id: 'signature-fnb',
-    category: 'fnb',
-    categoryLabel: '시그니처 F&B 디렉팅',
-    title: 'WANDERLUST CAFE',
-    subTitle: '맞춤형 시그니처 F&B',
-    brandBadge: 'WANDERLUST',
-    image: '/src/assets/images/portfolio_signature_fnb_1794010872528.jpg',
-    stats: 'F&B 객단가 3.2배 · 전 메뉴 조기 완판',
-    description: '캐릭터의 서사와 세계관을 맛과 비주얼로 풀어낸 독창적인 식음료 메뉴. 컵홀더 스티커만 바꾸는 관행을 탈피한 오리지널 포션 음료 및 캐릭터 타르트 개발.',
-    clientType: 'B2C 코어 팬덤 & 웹소설 제작사',
-    details: {
-      overview: '판타지 RPG 세계관의 연금술 공방 콘셉트를 적용한 테마 카페 식음료 메뉴 R&D 및 제조 공정 총괄.',
-      challenge: '라벨만 바꾼 기성 음료에 실망하는 팬덤의 높은 미식 눈높이와 좁은 주방 동선에서의 신속 제조 병목.',
-      solution: '서브컬처 전문 F&B 믹솔로지스트 협업을 통해 레이어드 컬러 티와 식용 글리터를 활용한 4종 시그니처 음료 & 오리지널 아트 타르트 개발.',
-      results: [
-        '팝업 4일간 시그니처 세트 메뉴 1,200잔 전량 완판',
-        '단순 음료 대비 객단가 24,000원으로 320% 상승',
-        '재방문 고객 비율 34% 기록'
-      ],
-      tags: ['F&B 레시피 개발', '메뉴 디렉팅', '위생/제조 동선', '원가 최적화'],
-      features: ['세계관 스토리텔링 메뉴판', '특전 코스터 증정 패키지', '주방 픽업 병목 제로화']
-    }
-  },
-  {
-    id: 'pink-merchandise',
-    category: 'goods',
-    categoryLabel: '굿즈 & 캐릭터 스토어',
-    title: 'PINK POP-UP ZONE',
-    subTitle: '쾌적한 관람 & MD 동선',
-    brandBadge: 'KAWAII COLLECTIVE',
-    image: '/src/assets/images/portfolio_pink_merchandise_1794010872426.jpg',
-    stats: '대기열 대기시간 70% 단축 · 굿즈 소진율 96%',
-    description: '대기열 최소화 및 효율적인 동선 관리로 팬들의 행사 만족도 극대화. 핑크빛 캐릭터 세계관을 담은 진열대와 오리지널 특전 굿즈 큐레이션.',
-    clientType: '캐릭터 라이선싱 IP 에이전시',
-    details: {
-      overview: '캐릭터 IP 팝업스토어에서 굿즈 구매와 포토존 관람이 뒤섞이지 않도록 공간을 이원화한 원웨이 동선 설계.',
-      challenge: '좁은 매장에 인파가 몰려 계산 대기열이 2시간 이상 지연되고 안전사고 위험이 발생하는 문제.',
-      solution: '현장 모바일 웨이팅 번호표 도입 및 바코드 사전 스캔 장바구니 시스템 적용으로 1인당 결제 시간을 45초로 단축.',
-      results: [
-        '평균 대기 시간 90분 → 25분으로 72% 단축',
-        'MD 굿즈 전체 라인업 96% 매진',
-        '현장 클레임 제로 달성'
-      ],
-      tags: ['MD 큐레이션', '대기열 최적화', '결제 자동화', '안전 관리'],
-      features: ['원웨이(One-way) 관람 동선', '스마트 QR 번호표 연동', '프리미엄 굿즈 진열 쇼케이스']
-    }
-  },
-  {
-    id: 'minimal-boutique',
-    category: 'operations',
-    categoryLabel: '하이엔드 콘셉트 스토어',
-    title: 'STAND CONCEPT',
-    subTitle: '브랜드 감성 극대화',
-    brandBadge: 'ATELIER SELECT',
-    image: '/src/assets/images/portfolio_minimal_display_1794010872333.jpg',
-    stats: '제작비 65% 절감 · SNS 바이럴 1,200건',
-    description: '미술관급 곡선 조형미와 절제된 톤앤매너로 서브컬처 IP의 브랜드 가치를 하이엔드로 끌어올린 셀렉트 팝업 부티크.',
-    clientType: '서브컬처 패션 브랜드 & 버추얼 레이블',
-    details: {
-      overview: '서브컬처 패션 캡슐 컬렉션을 현대적이고 미니멀한 무드로 재해석한 플래그십 쇼룸.',
-      challenge: '과도하게 화려한 시각물이 오히려 패션 아이템의 감도를 해치고, 비싼 목공 시공비로 인한 예산 초과.',
-      solution: '모듈형 기성 선반 구조체에 맞춤형 아치 패널을 결합하는 하이브리드 시공법으로 비용 절감과 하이엔드 무드를 동시 구현.',
-      results: [
-        '전통 목공 시공 견적 2,800만원 → 980만원(65% 절감)',
-        '주요 패션 인플루언서 자발적 방문 및 리뷰 45건',
-        '팝업 현장 선주문 180% 초과 달성'
-      ],
-      tags: ['비용 절감', '모듈 시공', '하이엔드 조명', '패션 팝업'],
-      features: ['무반사 박물관 조명 시스템', '체험형 피팅 라운지', 'VIP 사전 예약 타임슬롯']
-    }
-  }
-];
+  <!-- Fonts: Pretendard & Plus Jakarta Sans -->
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,500;0,700;0,800;1,700;1,800&display=swap" rel="stylesheet" />
 
-export const simulationPresets = {
-  genres: [
-    { id: 'dark-fantasy', label: '다크 판타지 RPG', icon: '⚔️', themeColor: '#8B5CF6', keyword: '고딕 석조 · 연금술 포션 · 비밀 서고' },
-    { id: 'cyberpunk', label: '사이버펑크 / SF', icon: '⚡', themeColor: '#06B6D4', keyword: '네온 홀로그램 · 미래형 실험실 · 에너지 큐브' },
-    { id: 'academy', label: '아카데미 / 일상 청춘', icon: '🏫', themeColor: '#10B981', keyword: '학교 라운지 · 캐릭터 사물함 · 청춘 감성 베이커리' },
-    { id: 'virtual-idol', label: '버추얼 아이돌 / 스트리머', icon: '🎤', themeColor: '#EC4899', keyword: '라이브 스테이지 · 응원봉 굿즈존 · 팬레터 우체통' }
-  ],
-  scales: [
-    { id: 'compact', label: '합정/홍대 팝업 카페 (20~35평)', duration: '준비 3~4주', capacity: '시간당 30~50명', savings: '약 1,200만원 절감' },
-    { id: 'medium', label: '홍대 메인 상권 단독 매장 (40~60평)', duration: '준비 5~6주', capacity: '시간당 70~100명', savings: '약 2,400만원 절감' },
-    { id: 'flagship', label: '성수/강남 플래그십 (80평 이상)', duration: '준비 8주 내외', capacity: '시간당 150명+', savings: '약 4,500만원 절감' }
-  ],
-  focuses: [
-    { id: 'fnb', label: '시그니처 F&B 및 미식 경험', highlight: '스토리텔링 음료 3종 + 특전 디저트 세트 + 코스터 패키지' },
-    { id: 'exhibition', label: '몰입형 세계관 전시 & 포토존', highlight: '등신대/디오라마 조형 연출 + 미션 스탬프 투어 + 기념 티켓' },
-    { id: 'goods', label: '한정판 MD 판매 & 팬 페스티벌', highlight: '사전 예약 번호표 연동 + 원웨이 굿즈 쇼핑존 + 럭키드로우' }
-  ]
-};
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bgdark: '#0E0E10',
+            panelbg: '#141418',
+            panelhover: '#1B1B20',
+            cardwhite: '#FFFFFF',
+            accentyellow: '#FEE500',
+            accentamber: '#E5A93C',
+            textblack: '#1A1A1A',
+            textgray: '#666666'
+          },
+          fontFamily: {
+            sans: ['Pretendard', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'sans-serif'],
+            brand: ['"Plus Jakarta Sans"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', sans-serif;
+      background-color: #0E0E10;
+      color: #F3F4F6;
+    }
+    .font-brand {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .hero-bg {
+      background: linear-gradient(rgba(14, 14, 16, 0.82), rgba(14, 14, 16, 0.92)), url('/src/assets/images/hero_subculture_boutique_1794010870823.jpg') center/cover no-repeat;
+    }
+    .hero-closing-bg {
+      background: linear-gradient(rgba(14, 14, 16, 0.88), rgba(14, 14, 16, 0.96)), url('/src/assets/images/hero_subculture_boutique_1794010870823.jpg') center/cover no-repeat;
+    }
+    .shadow-card {
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+    }
+    .shadow-card:hover {
+      box-shadow: 0 16px 40px rgba(254, 229, 0, 0.22);
+    }
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #121214;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #2a2a30;
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #3e3e46;
+    }
+  </style>
+</head>
+<body class="bg-bgdark text-[#F3F4F6] antialiased selection:bg-accentyellow selection:text-black">
+
+  <!-- ======================================================== -->
+  <!-- 0. Top Bar Navigation (Fixed Header)                      -->
+  <!-- ======================================================== -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-[#0E0E10]/90 backdrop-blur-md border-b border-white/10 transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 flex items-center justify-between gap-8">
+      <!-- Zone 1: Wordmark -->
+      <a href="#" class="font-brand text-2xl font-black italic tracking-tighter text-white hover:text-accentyellow transition-colors whitespace-nowrap shrink-0">
+        Y.E.RIN <span class="not-italic text-xs font-normal text-white/50 tracking-normal ml-1">DIRECTOR</span>
+      </a>
+
+      <!-- Zone 2: Nav Links -->
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-white/70">
+        <a href="#problem" class="hover:text-white transition-colors whitespace-nowrap shrink-0">문제 진단</a>
+        <a href="#solution" class="hover:text-white transition-colors whitespace-nowrap shrink-0">솔루션</a>
+        <a href="#portfolio" class="hover:text-accentyellow transition-colors whitespace-nowrap shrink-0">포트폴리오</a>
+        <a href="#simulator" class="hover:text-white transition-colors whitespace-nowrap shrink-0">AI 프로토타이핑</a>
+        <a href="#trust" class="hover:text-white transition-colors whitespace-nowrap shrink-0">실적·신뢰</a>
+        <a href="#pricing" class="hover:text-white transition-colors whitespace-nowrap shrink-0">파트너십</a>
+      </nav>
+
+      <!-- Zone 3: Primary Action -->
+      <div class="hidden sm:flex items-center gap-3 shrink-0">
+        <button onclick="openInquiryModal('B2B IP 홀더 팝업 대행')" class="flex items-center gap-1.5 px-4.5 py-2 text-xs font-bold text-black bg-accentyellow hover:bg-white rounded-full transition-all duration-200 transform hover:scale-[1.02] shadow-sm whitespace-nowrap shrink-0 cursor-pointer">
+          <span>팝업 기획 의뢰</span>
+          <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+        </button>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <div class="flex md:hidden items-center">
+        <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="p-2 text-white/80 hover:text-white focus:outline-none" aria-label="메뉴 열기">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobileMenu" class="hidden md:hidden bg-[#141418] border-b border-white/10 px-6 py-5 space-y-4 shadow-xl">
+      <div class="flex flex-col space-y-3 text-base font-medium">
+        <a href="#problem" onclick="toggleMobileMenu()" class="text-white/80 hover:text-white py-1">문제 진단</a>
+        <a href="#solution" onclick="toggleMobileMenu()" class="text-white/80 hover:text-white py-1">솔루션</a>
+        <a href="#portfolio" onclick="toggleMobileMenu()" class="text-accentyellow font-semibold py-1">포트폴리오</a>
+        <a href="#simulator" onclick="toggleMobileMenu()" class="text-white/80 hover:text-white py-1">AI 프로토타이핑</a>
+        <a href="#trust" onclick="toggleMobileMenu()" class="text-white/80 hover:text-white py-1">실적·신뢰</a>
+        <a href="#pricing" onclick="toggleMobileMenu()" class="text-white/80 hover:text-white py-1">파트너십</a>
+      </div>
+      <div class="pt-2 border-t border-white/10">
+        <button onclick="toggleMobileMenu(); openInquiryModal('B2B IP 홀더 팝업 대행')" class="w-full py-3 text-sm font-bold text-black bg-accentyellow hover:bg-white rounded-lg transition-colors cursor-pointer">
+          팝업 프로젝트 의뢰하기
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======================================================== -->
+  <!-- 1. Hero Section                                           -->
+  <!-- ======================================================== -->
+  <section class="hero-bg relative min-h-[92vh] flex flex-col justify-between pt-28 pb-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <div class="max-w-4xl mx-auto text-center my-auto pt-8 pb-12">
+      <!-- Category Kicker -->
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-6">
+        <span class="text-accentyellow">✦</span>
+        <span class="text-xs font-bold tracking-[0.18em] text-accentyellow uppercase font-brand">
+          Subculture IP Immersive Experience Director
+        </span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.2] mb-6">
+        획일화된 팬덤 행사,<br />
+        <span class="text-accentyellow relative inline-block">
+          IP 세계관에 완벽히 몰입하다.
+        </span>
+      </h1>
+
+      <!-- Subtitle -->
+      <p class="text-base sm:text-xl text-white/80 max-w-2xl mx-auto font-light leading-relaxed mb-10">
+        압도적 퀄리티의 오프라인 팝업 및 F&B 경험 기획·총괄<br class="hidden sm:inline" />
+        서브컬처 팬덤이 열광하는 진짜 공간을 만듭니다.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
+        <button onclick="openInquiryModal('B2B IP 홀더 팝업 대행')" class="w-full sm:w-auto px-8 py-4 text-base font-bold text-black bg-accentyellow hover:bg-white rounded-full transition-all duration-300 transform hover:scale-[1.02] shadow-[0_4px_25px_rgba(254,229,0,0.35)] cursor-pointer">
+          팝업 프로젝트 의뢰하기
+        </button>
+        <a href="#portfolio" class="w-full sm:w-auto px-7 py-4 text-base font-semibold text-white/90 bg-white/10 hover:bg-white/20 hover:text-white rounded-full border border-white/15 backdrop-blur-md transition-all duration-200 text-center">
+          포트폴리오 둘러보기
+        </a>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <a href="#problem" class="inline-flex items-center gap-1.5 text-xs text-white/50 hover:text-white/90 transition-colors mt-12">
+        <span>아래로 스크롤하여 문제 진단 확인</span>
+        <svg class="w-3.5 h-3.5 animate-bounce" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+      </a>
+    </div>
+
+    <!-- Quantitative Proof Strip -->
+    <div class="max-w-6xl mx-auto w-full pt-8 border-t border-white/10">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+        <div class="p-4 rounded-xl bg-white/[0.03] border border-white/10 text-center backdrop-blur-sm">
+          <div class="text-accentyellow font-brand font-black text-2xl sm:text-3xl tabular-nums mb-1">400+<span class="text-xs text-white/60 ml-0.5">명</span></div>
+          <div class="text-xs text-white/70">단일 행사 총괄 방문객</div>
+        </div>
+        <div class="p-4 rounded-xl bg-white/[0.03] border border-white/10 text-center backdrop-blur-sm">
+          <div class="text-accentyellow font-brand font-black text-2xl sm:text-3xl tabular-nums mb-1">65%</div>
+          <div class="text-xs text-white/70">제작비/견적 절감 달성률</div>
+        </div>
+        <div class="p-4 rounded-xl bg-white/[0.03] border border-white/10 text-center backdrop-blur-sm">
+          <div class="text-accentyellow font-brand font-black text-2xl sm:text-3xl tabular-nums mb-1">100%</div>
+          <div class="text-xs text-white/70">오리지널 F&B 독점 레시피</div>
+        </div>
+        <div class="p-4 rounded-xl bg-white/[0.03] border border-white/10 text-center backdrop-blur-sm">
+          <div class="text-accentyellow font-brand font-black text-xl sm:text-2xl mb-1">홍대·합정</div>
+          <div class="text-xs text-white/70">특화 상권 F&B 제휴 인프라</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================== -->
+  <!-- 2. 문제 정의 (Problem Identification)                     -->
+  <!-- ======================================================== -->
+  <section id="problem" class="py-24 px-4 sm:px-6 lg:px-8 bg-[#121216] relative border-t border-white/5">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="text-xs font-bold tracking-[0.2em] text-accentyellow uppercase font-brand block mb-3">
+          Industry Pain Points
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-snug mb-4">
+          비싼 비용, 아쉬운 퀄리티.<br />
+          <span class="text-white/60">당신의 팬덤은 지쳐가고 있습니다.</span>
+        </h2>
+        <p class="text-sm sm:text-base text-white/60 max-w-2xl mx-auto">
+          수천만 원의 외주 예산을 쏟아붓고도 팬덤 커뮤니티에서 실망 섞인 피드백을 받는 악순환, 이제 끊어내야 합니다.
+        </p>
+      </div>
+
+      <!-- 2 Problem Cards -->
+      <div class="grid md:grid-cols-2 gap-8 mb-12">
+        <!-- Card 1 -->
+        <div class="bg-cardwhite text-textblack p-8 sm:p-10 rounded-2xl shadow-card flex flex-col justify-between transition-transform duration-300 hover:-translate-y-1">
+          <div>
+            <div className="flex items-center justify-between mb-6">
+              <span class="font-brand font-black text-xs text-red-600 tracking-wider">PAIN POINT 01</span>
+            </div>
+            <h3 class="text-2xl font-black text-gray-950 mb-4 leading-snug">
+              불만족스러운 행사 퀄리티 & 겉핥기식 연출
+            </h3>
+            <p class="text-gray-600 text-sm sm:text-base leading-relaxed mb-6">
+              비싼 입장료와 굿즈 비용을 지불함에도 불구하고, 평범한 카페에 포스터 몇 장 붙이고 기성 캔음료에 캐릭터 스티커 라벨만 교체하는 식의 기획에 코어 팬들은 깊은 피로감을 느낍니다.
+            </p>
+          </div>
+          <div class="pt-5 border-t border-gray-100 flex items-center gap-2 text-xs text-red-600 font-semibold">
+            <span>⚠ 팬덤의 몰입을 깨뜨리는 형식적 굿즈·F&B 한계</span>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-cardwhite text-textblack p-8 sm:p-10 rounded-2xl shadow-card flex flex-col justify-between transition-transform duration-300 hover:-translate-y-1">
+          <div>
+            <div className="flex items-center justify-between mb-6">
+              <span class="font-brand font-black text-xs text-red-600 tracking-wider">PAIN POINT 02</span>
+            </div>
+            <h3 class="text-2xl font-black text-gray-950 mb-4 leading-snug">
+              외주 대행사의 높은 거품 견적과 예산 소모
+            </h3>
+            <p class="text-gray-600 text-sm sm:text-base leading-relaxed mb-6">
+              다단계 외주 구조와 비싼 단기 대관비로 인해 막대한 비용이 증발합니다. 정작 중요한 IP 콘텐츠와 디테일한 비주얼 연출에 예산이 실질적으로 투입되지 못하는 구조적 비효율이 존재합니다.
+            </p>
+          </div>
+          <div class="pt-5 border-t border-gray-100 flex items-center gap-2 text-xs text-red-600 font-semibold">
+            <span>⚠ 실제 콘텐츠 투자율 30% 미만으로 전락하는 현실</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Insight Callout -->
+      <div class="p-6 sm:p-8 rounded-2xl bg-white/[0.03] border border-white/10 flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div>
+          <div class="text-white font-bold text-base sm:text-lg">
+            해결책은 '총괄 디렉팅의 일원화'와 'AI 사전 프로토타이핑'입니다.
+          </div>
+          <div class="text-white/60 text-xs sm:text-sm mt-0.5">
+            외주 마진 거품을 제거하고 홍대·합정 상권 인프라를 직결하여 콘텐츠에 100% 집중합니다.
+          </div>
+        </div>
+        <a href="#solution" class="px-5 py-2.5 rounded-full bg-white/10 hover:bg-white/20 text-white text-xs font-semibold whitespace-nowrap transition-colors">
+          해결 방안 보기 →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================== -->
+  <!-- 3. 솔루션 제시 (Solution & Core Values)                   -->
+  <!-- ======================================================== -->
+  <section id="solution" class="py-24 px-4 sm:px-6 lg:px-8 bg-bgdark relative">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16 max-w-3xl mx-auto">
+        <span class="text-xs font-bold tracking-[0.2em] text-accentyellow uppercase font-brand block mb-3">
+          Director's Core Solution
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-snug mb-4">
+          AI와 실무 노하우로 완성하는 압도적 공간
+        </h2>
+        <p class="text-sm sm:text-base text-white/70 leading-relaxed">
+          서울의 풍부한 서브컬처 인프라(홍대·합정 상권)를 바탕으로 가장 효율적이고 몰입감 넘치는 팝업을 원스톱으로 설계합니다.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6 lg:gap-8 mb-16">
+        <!-- 01 -->
+        <div class="bg-[#16161A] border border-white/10 rounded-2xl p-8 flex flex-col justify-between hover:border-accentyellow/50 transition-all">
+          <div>
+            <div class="font-brand font-black text-2xl text-accentyellow mb-4">01</div>
+            <h3 class="text-xl font-bold text-white mb-1.5">AI 프로토타이핑 기술</h3>
+            <div class="text-xs text-white/50 mb-4">기획 사전 시각화 & 의사결정 단축</div>
+            <p class="text-sm text-white/75 leading-relaxed mb-6">
+              사전 무드보드와 굿즈 시안, 공간 렌더링을 AI로 3일 내 초고속 시각화하여 IP 홀더와 기획자 간의 불일치를 사전에 완벽히 차단합니다.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-white/10 text-xs text-accentyellow font-medium">
+            ✓ 시공 착수 전 100% 동일한 비주얼 싱크 달성
+          </div>
+        </div>
+
+        <!-- 02 -->
+        <div class="bg-[#16161A] border border-white/10 rounded-2xl p-8 flex flex-col justify-between hover:border-accentyellow/50 transition-all">
+          <div>
+            <div class="font-brand font-black text-2xl text-accentyellow mb-4">02</div>
+            <h3 class="text-xl font-bold text-white mb-1.5">제작비 65% 거품 절감</h3>
+            <div class="text-xs text-white/50 mb-4">자체 네트워크 & 모듈형 제작 공법</div>
+            <p class="text-sm text-white/75 leading-relaxed mb-6">
+              불필요한 중간 외주 대행 마진을 전면 배제하고, 재사용 가능한 모듈형 조형물과 자체 F&B 파트너십을 통해 견적 거품을 65% 걷어냅니다.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-white/10 text-xs text-accentyellow font-medium">
+            ✓ 절감된 예산을 굿즈와 특전 디테일에 재투자
+          </div>
+        </div>
+
+        <!-- 03 -->
+        <div class="bg-[#16161A] border border-white/10 rounded-2xl p-8 flex flex-col justify-between hover:border-accentyellow/50 transition-all">
+          <div>
+            <div class="font-brand font-black text-2xl text-accentyellow mb-4">03</div>
+            <h3 class="text-xl font-bold text-white mb-1.5">동선 및 F&B 최적화</h3>
+            <div class="text-xs text-white/50 mb-4">현장 운영 노하우 & 주방 병목 해소</div>
+            <p class="text-sm text-white/75 leading-relaxed mb-6">
+              다수의 오프라인 식음료 매장 운영 노하우를 바탕으로, 관람객의 대기 시간과 주방 조리 병목을 최소화하는 스마트 원웨이 동선을 설계합니다.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-white/10 text-xs text-accentyellow font-medium">
+            ✓ 평균 대기 시간 70% 단축 & 회전율 140% 향상
+          </div>
+        </div>
+      </div>
+
+      <!-- Workflow Bar -->
+      <div class="bg-[#121216] border border-white/10 rounded-2xl p-6 sm:p-8">
+        <div class="text-xs font-bold text-white/50 tracking-wider font-brand uppercase mb-4 text-center sm:text-left">
+          Total Directing Workflow
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-4 gap-4 text-center">
+          <div class="p-4 rounded-xl bg-white/[0.02] border border-white/5">
+            <div class="text-accentyellow font-brand font-black text-xs mb-1">STEP 01</div>
+            <div class="text-white font-bold text-sm mb-1">IP 세계관 심층 분석</div>
+            <div class="text-xs text-white/50">원작 스토리 & 코어 팬덤 타겟팅</div>
+          </div>
+          <div class="p-4 rounded-xl bg-white/[0.02] border border-white/5">
+            <div class="text-accentyellow font-brand font-black text-xs mb-1">STEP 02</div>
+            <div class="text-white font-bold text-sm mb-1">AI 비주얼 프로토타이핑</div>
+            <div class="text-xs text-white/50">공간 무드보드 & 메뉴 시안 확정</div>
+          </div>
+          <div class="p-4 rounded-xl bg-white/[0.02] border border-white/5">
+            <div class="text-accentyellow font-brand font-black text-xs mb-1">STEP 03</div>
+            <div class="text-white font-bold text-sm mb-1">홍대·합정 상권 매칭</div>
+            <div class="text-xs text-white/50">대관 조율 및 F&B 주방 설비 점검</div>
+          </div>
+          <div class="p-4 rounded-xl bg-white/[0.02] border border-white/5">
+            <div class="text-accentyellow font-brand font-black text-xs mb-1">STEP 04</div>
+            <div class="text-white font-bold text-sm mb-1">현장 총괄 & 팬 경험 검증</div>
+            <div class="text-xs text-white/50">스마트 웨이팅 & 굿즈 운영</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================== -->
+  <!-- 4. 포트폴리오 쇼케이스 (Sample Image 4-Card Grid)          -->
+  <!-- ======================================================== -->
+  <section id="portfolio" class="py-24 px-4 sm:px-6 lg:px-8 bg-[#101014] relative">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-10">
+        <span class="text-xs font-bold tracking-[0.2em] text-accentyellow uppercase font-brand block mb-3">
+          Director's Archive & Showcase
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-black text-white tracking-tight mb-4">
+          윤예린 디렉터 포트폴리오
+        </h2>
+        <p class="text-sm sm:text-base text-white/70 max-w-2xl mx-auto">
+          공간 무드보드부터 시그니처 F&B, MD 대기열 최적화까지 — 실제 성과로 입증된 서브컬처 몰입 팝업 프로젝트.
+        </p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="flex flex-wrap items-center justify-center gap-2 mb-12" id="portfolioFilterContainer">
+        <button onclick="filterPortfolio('all')" class="filter-btn active-filter px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all duration-200 cursor-pointer bg-accentyellow text-black shadow-md" data-filter="all">전체 프로젝트</button>
+        <button onclick="filterPortfolio('space')" class="filter-btn px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all duration-200 cursor-pointer bg-white/5 text-white/70 hover:bg-white/10 hover:text-white border border-white/10" data-filter="space">공간 무드보드 & 연출</button>
+        <button onclick="filterPortfolio('fnb')" class="filter-btn px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all duration-200 cursor-pointer bg-white/5 text-white/70 hover:bg-white/10 hover:text-white border border-white/10" data-filter="fnb">시그니처 F&B</button>
+        <button onclick="filterPortfolio('goods')" class="filter-btn px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all duration-200 cursor-pointer bg-white/5 text-white/70 hover:bg-white/10 hover:text-white border border-white/10" data-filter="goods">굿즈 & MD 스토어</button>
+        <button onclick="filterPortfolio('operations')" class="filter-btn px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all duration-200 cursor-pointer bg-white/5 text-white/70 hover:bg-white/10 hover:text-white border border-white/10" data-filter="operations">하이엔드 콘셉트</button>
+      </div>
+
+      <!-- 4 Cards Grid - Benchmark from the sample screenshot -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 sm:gap-8 max-w-4xl mx-auto" id="portfolioCardsGrid">
+        <!-- Card 1: Space -->
+        <div class="portfolio-card group bg-white rounded-2xl overflow-hidden shadow-card transition-all duration-300 transform hover:-translate-y-1.5 flex flex-col cursor-pointer border border-neutral-100" data-category="space" onclick="openPortfolioModal(0)">
+          <div class="relative aspect-[4/3] w-full overflow-hidden bg-neutral-100">
+            <img src="/src/assets/images/regenerated_image_1794013841232.png" alt="HONGDAE ARCHIVE" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+            <div class="absolute top-3 left-3 bg-black/75 backdrop-blur-md px-2.5 py-1 rounded text-[11px] font-bold text-white tracking-wide">공간 무드보드 & 연출</div>
+            <div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity bg-accentyellow text-black p-1.5 rounded-full shadow">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </div>
+          </div>
+          <div class="p-5 sm:p-6 text-textblack flex flex-col justify-between flex-1">
+            <div>
+              <div class="text-xs font-semibold text-neutral-500 tracking-wider font-brand mb-1">B2B 게임 IP 퍼블리셔</div>
+              <h3 class="text-xl sm:text-2xl font-black text-gray-950 tracking-tight group-hover:text-black mb-2 flex items-center justify-between">
+                <span>HONGDAE ARCHIVE</span>
+              </h3>
+              <div class="text-xs font-bold text-indigo-700 mb-2">완벽한 세계관 구현</div>
+              <p class="text-xs sm:text-sm text-neutral-600 line-clamp-2 leading-relaxed">
+                기존 카페의 틀을 깬, 특정 IP만을 위한 몰입형 인테리어와 시각적 장치 연출. 네오 도쿄 서브컬처 테마를 살린 스트리트 갤러리형 팝업 스토어.
+              </p>
+            </div>
+            <div class="pt-4 mt-4 border-t border-neutral-200 flex items-center justify-between">
+              <span class="text-[11px] font-bold text-neutral-800 bg-neutral-100 px-2 py-0.5 rounded">공간 만족도 98.4% · 관람 체류시간 2.5배</span>
+              <span class="text-xs font-bold text-neutral-900 group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">상세보기 →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: F&B -->
+        <div class="portfolio-card group bg-white rounded-2xl overflow-hidden shadow-card transition-all duration-300 transform hover:-translate-y-1.5 flex flex-col cursor-pointer border border-neutral-100" data-category="fnb" onclick="openPortfolioModal(1)">
+          <div class="relative aspect-[4/3] w-full overflow-hidden bg-neutral-100">
+            <img src="/src/assets/images/portfolio_signature_fnb_1794010872528.jpg" alt="WANDERLUST CAFE" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+            <div class="absolute top-3 left-3 bg-black/75 backdrop-blur-md px-2.5 py-1 rounded text-[11px] font-bold text-white tracking-wide">시그니처 F&B 디렉팅</div>
+            <div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity bg-accentyellow text-black p-1.5 rounded-full shadow">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </div>
+          </div>
+          <div class="p-5 sm:p-6 text-textblack flex flex-col justify-between flex-1">
+            <div>
+              <div class="text-xs font-semibold text-neutral-500 tracking-wider font-brand mb-1">B2C 코어 팬덤 & 웹소설 제작사</div>
+              <h3 class="text-xl sm:text-2xl font-black text-gray-950 tracking-tight group-hover:text-black mb-2 flex items-center justify-between">
+                <span>WANDERLUST CAFE</span>
+              </h3>
+              <div class="text-xs font-bold text-indigo-700 mb-2">맞춤형 시그니처 F&B</div>
+              <p class="text-xs sm:text-sm text-neutral-600 line-clamp-2 leading-relaxed">
+                캐릭터의 서사와 세계관을 맛과 비주얼로 풀어낸 독창적인 식음료 메뉴. 컵홀더 스티커만 바꾸는 관행을 탈피한 오리지널 포션 음료 및 캐릭터 타르트 개발.
+              </p>
+            </div>
+            <div class="pt-4 mt-4 border-t border-neutral-200 flex items-center justify-between">
+              <span class="text-[11px] font-bold text-neutral-800 bg-neutral-100 px-2 py-0.5 rounded">F&B 객단가 3.2배 · 전 메뉴 조기 완판</span>
+              <span class="text-xs font-bold text-neutral-900 group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">상세보기 →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Goods -->
+        <div class="portfolio-card group bg-white rounded-2xl overflow-hidden shadow-card transition-all duration-300 transform hover:-translate-y-1.5 flex flex-col cursor-pointer border border-neutral-100" data-category="goods" onclick="openPortfolioModal(2)">
+          <div class="relative aspect-[4/3] w-full overflow-hidden bg-neutral-100">
+            <img src="/src/assets/images/portfolio_pink_merchandise_1794010872426.jpg" alt="PINK POP-UP ZONE" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+            <div class="absolute top-3 left-3 bg-black/75 backdrop-blur-md px-2.5 py-1 rounded text-[11px] font-bold text-white tracking-wide">굿즈 & 캐릭터 스토어</div>
+            <div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity bg-accentyellow text-black p-1.5 rounded-full shadow">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </div>
+          </div>
+          <div class="p-5 sm:p-6 text-textblack flex flex-col justify-between flex-1">
+            <div>
+              <div class="text-xs font-semibold text-neutral-500 tracking-wider font-brand mb-1">캐릭터 라이선싱 IP 에이전시</div>
+              <h3 class="text-xl sm:text-2xl font-black text-gray-950 tracking-tight group-hover:text-black mb-2 flex items-center justify-between">
+                <span>PINK POP-UP ZONE</span>
+              </h3>
+              <div class="text-xs font-bold text-indigo-700 mb-2">쾌적한 관람 & MD 동선</div>
+              <p class="text-xs sm:text-sm text-neutral-600 line-clamp-2 leading-relaxed">
+                대기열 최소화 및 효율적인 동선 관리로 팬들의 행사 만족도 극대화. 핑크빛 캐릭터 세계관을 담은 진열대와 오리지널 특전 굿즈 큐레이션.
+              </p>
+            </div>
+            <div class="pt-4 mt-4 border-t border-neutral-200 flex items-center justify-between">
+              <span class="text-[11px] font-bold text-neutral-800 bg-neutral-100 px-2 py-0.5 rounded">대기시간 70% 단축 · 굿즈 소진율 96%</span>
+              <span class="text-xs font-bold text-neutral-900 group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">상세보기 →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Operations -->
+        <div class="portfolio-card group bg-white rounded-2xl overflow-hidden shadow-card transition-all duration-300 transform hover:-translate-y-1.5 flex flex-col cursor-pointer border border-neutral-100" data-category="operations" onclick="openPortfolioModal(3)">
+          <div class="relative aspect-[4/3] w-full overflow-hidden bg-neutral-100">
+            <img src="/src/assets/images/portfolio_minimal_display_1794010872333.jpg" alt="STAND CONCEPT" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+            <div class="absolute top-3 left-3 bg-black/75 backdrop-blur-md px-2.5 py-1 rounded text-[11px] font-bold text-white tracking-wide">하이엔드 콘셉트 스토어</div>
+            <div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity bg-accentyellow text-black p-1.5 rounded-full shadow">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </div>
+          </div>
+          <div class="p-5 sm:p-6 text-textblack flex flex-col justify-between flex-1">
+            <div>
+              <div class="text-xs font-semibold text-neutral-500 tracking-wider font-brand mb-1">서브컬처 패션 & 버추얼 레이블</div>
+              <h3 class="text-xl sm:text-2xl font-black text-gray-950 tracking-tight group-hover:text-black mb-2 flex items-center justify-between">
+                <span>STAND CONCEPT</span>
+              </h3>
+              <div class="text-xs font-bold text-indigo-700 mb-2">브랜드 감성 극대화</div>
+              <p class="text-xs sm:text-sm text-neutral-600 line-clamp-2 leading-relaxed">
+                미술관급 곡선 조형미와 절제된 톤앤매너로 서브컬처 IP의 브랜드 가치를 하이엔드로 끌어올린 셀렉트 팝업 부티크.
+              </p>
+            </div>
+            <div class="pt-4 mt-4 border-t border-neutral-200 flex items-center justify-between">
+              <span class="text-[11px] font-bold text-neutral-800 bg-neutral-100 px-2 py-0.5 rounded">제작비 65% 절감 · SNS 바이럴 1,200건</span>
+              <span class="text-xs font-bold text-neutral-900 group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">상세보기 →</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Load More '+' Button from Screenshot -->
+      <div class="flex flex-col items-center justify-center mt-12 gap-3">
+        <button onclick="togglePortfolioExpand()" id="expandPortfolioBtn" class="w-12 h-12 rounded-xl bg-white/5 hover:bg-white/10 border border-white/20 text-white flex items-center justify-center transition-all duration-200 transform hover:scale-105 cursor-pointer" title="더 많은 포트폴리오 보기">
+          <svg id="expandPortfolioIcon" class="w-5 h-5 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <span id="expandPortfolioText" class="text-xs text-white/50">더보기 (클릭 시 프로젝트 전체 확인)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================== -->
+  <!-- 5. AI 프로토타이핑 가상 기획기 (Interactive Simulator)     -->
+  <!-- ======================================================== -->
+  <section id="simulator" class="py-24 px-4 sm:px-6 lg:px-8 bg-bgdark border-t border-white/5 relative">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-14">
+        <span class="text-xs font-bold tracking-[0.2em] text-accentyellow uppercase font-brand block mb-3">
+          Interactive AI Prototyping
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-black text-white tracking-tight mb-4">
+          AI 프로토타이핑 가상 기획기
+        </h2>
+        <p class="text-sm sm:text-base text-white/70 max-w-2xl mx-auto">
+          당신의 서브컬처 IP 특성을 선택해보세요. 윤예린 디렉터의 AI 프로토타이핑 시스템이 공간 무드와 예상 예산 최적화 안을 즉시 시뮬레이션합니다.
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-12 gap-8 items-start">
+        <!-- Controls (7 cols) -->
+        <div class="lg:col-span-7 space-y-6">
+          <!-- Step 1: Genre -->
+          <div class="bg-[#141418] border border-white/10 rounded-2xl p-6">
+            <label class="text-xs font-bold text-white/60 uppercase tracking-wider font-brand block mb-3">
+              01. IP 장르 및 세계관 선택
+            </label>
+            <div class="grid grid-cols-2 gap-2.5" id="genreButtons">
+              <button onclick="selectGenre('dark-fantasy')" data-genre="dark-fantasy" class="genre-btn active p-3.5 rounded-xl text-left border transition-all duration-200 cursor-pointer bg-white/10 border-accentyellow text-white ring-1 ring-accentyellow">
+                <div class="text-lg mb-1">⚔️</div>
+                <div class="font-bold text-sm text-white">다크 판타지 RPG</div>
+                <div class="text-[11px] text-white/50 truncate mt-0.5">고딕 석조 · 연금술 포션 · 비밀 서고</div>
+              </button>
+              <button onclick="selectGenre('cyberpunk')" data-genre="cyberpunk" class="genre-btn p-3.5 rounded-xl text-left border transition-all duration-200 cursor-pointer bg-white/[0.02] border-white/5 text-white/70 hover:bg-white/5 hover:text-white">
+                <div class="text-lg mb-1">⚡</div>
+                <div class="font-bold text-sm text-white">사이버펑크 / SF</div>
+                <div class="text-[11px] text-white/50 truncate mt-0.5">네온 홀로그램 · 미래형 실험실</div>
+              </button>
+              <button onclick="selectGenre('academy')" data-genre="academy" class="genre-btn p-3.5 rounded-xl text-left border transition-all duration-200 cursor-pointer bg-white/[0.02] border-white/5 text-white/70 hover:bg-white/5 hover:text-white">
+                <div class="text-lg mb-1">🏫</div>
+                <div class="font-bold text-sm text-white">아카데미 / 청춘 일상</div>
+                <div class="text-[11px] text-white/50 truncate mt-0.5">학교 라운지 · 캐릭터 사물함</div>
+              </button>
+              <button onclick="selectGenre('virtual-idol')" data-genre="virtual-idol" class="genre-btn p-3.5 rounded-xl text-left border transition-all duration-200 cursor-pointer bg-white/[0.02] border-white/5 text-white/70 hover:bg-white/5 hover:text-white">
+                <div class="text-lg mb-1">🎤</div>
+                <div class="font-bold text-sm text-white">버추얼 아이돌</div>
+                <div class="text-[11px] text-white/50 truncate mt-0.5">라이브 스테이지 · 응원봉 굿즈존</div>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 2: Scale -->
+          <div class="bg-[#141418] border border-white/10 rounded-2xl p-6">
+            <label class="text-xs font-bold text-white/60 uppercase tracking-wider font-brand block mb-3">
+              02. 희망 팝업 공간 규모 (홍대·합정 상권 중심)
+            </label>
+            <div class="space-y-2" id="scaleButtons">
+              <button onclick="selectScale('compact')" data-scale="compact" class="scale-btn active w-full p-3.5 rounded-xl text-left border flex items-center justify-between transition-all duration-200 cursor-pointer bg-white/10 border-accentyellow text-white ring-1 ring-accentyellow">
+                <div>
+                  <div class="font-bold text-sm text-white">합정/홍대 팝업 카페 (20~35평)</div>
+                  <div class="text-xs text-white/50">시간당 30~50명 · 준비 3~4주</div>
+                </div>
+                <span class="text-xs font-semibold text-accentyellow bg-accentyellow/10 px-2.5 py-1 rounded">약 1,200만원 절감</span>
+              </button>
+              <button onclick="selectScale('medium')" data-scale="medium" class="scale-btn w-full p-3.5 rounded-xl text-left border flex items-center justify-between transition-all duration-200 cursor-pointer bg-white/[0.02] border-white/5 text-white/70 hover:bg-white/5 hover:text-white">
+                <div>
+                  <div class="font-bold text-sm text-white">홍대 메인 상권 단독 매장 (40~60평)</div>
+                  <div class="text-xs text-white/50">시간당 70~100명 · 준비 5~6주</div>
+                </div>
+                <span class="text-xs font-semibold text-accentyellow bg-accentyellow/10 px-2.5 py-1 rounded">약 2,400만원 절감</span>
+              </button>
+              <button onclick="selectScale('flagship')" data-scale="flagship" class="scale-btn w-full p-3.5 rounded-xl text-left border flex items-center justify-between transition-all duration-200 cursor-pointer bg-white/[0.02] border-white/5 text-white/70 hover:bg-white/5 hover:text-white">
+                <div>
+                  <div class="font-bold text-sm text-white">성수/강남 플래그십 (80평 이상)</div>
+                  <div class="text-xs text-white/50">시간당 150명+ · 준비 8주 내외</div>
+                </div>
+                <span class="text-xs font-semibold text-accentyellow bg-accentyellow/10 px-2.5 py-1 rounded">약 4,500만원 절감</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 3: Focus -->
+          <div class="bg-[#141418] border border-white/10 rounded-2xl p-6">
+            <label class="text-xs font-bold text-white/60 uppercase tracking-wider font-brand block mb-3">
+              03. 핵심 팬 경험 집중 포인트
+            </label>
+            <div class="space-y-2" id="focusButtons">
+              <button onclick="selectFocus('fnb')" data-focus="fnb" class="focus-btn active w-full p-3.5 rounded-xl text-left border transition-all duration-200 cursor-pointer bg-white/10 border-accentyellow text-white ring-1 ring-accentyellow">
+                <div class="font-bold text-sm text-white mb-0.5">시그니처 F&B 및 미식 경험</div>
+                <div class="text-xs text-white/60">스토리텔링 음료 3종 + 특전 디저트 세트 + 코스터 패키지</div>
+              </button>
+              <button onclick="selectFocus('exhibition')" data-focus="exhibition" class="focus-btn w-full p-3.5 rounded-xl text-left border transition-all duration-200 cursor-pointer bg-white/[0.02] border-white/5 text-white/70 hover:bg-white/5 hover:text-white">
+                <div class="font-bold text-sm text-white mb-0.5">몰입형 세계관 전시 & 포토존</div>
+                <div class="text-xs text-white/60">등신대/디오라마 조형 연출 + 미션 스탬프 투어 + 기념 티켓</div>
+              </button>
+              <button onclick="selectFocus('goods')" data-focus="goods" class="focus-btn w-full p-3.5 rounded-xl text-left border transition-all duration-200 cursor-pointer bg-white/[0.02] border-white/5 text-white/70 hover:bg-white/5 hover:text-white">
+                <div class="font-bold text-sm text-white mb-0.5">한정판 MD 판매 & 팬 페스티벌</div>
+                <div class="text-xs text-white/60">사전 예약 번호표 연동 + 원웨이 굿즈 쇼핑존 + 럭키드로우</div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Real-time Live Spec Column (5 cols) -->
+        <div class="lg:col-span-5 bg-[#16161C] border border-accentyellow/30 rounded-2xl p-6 lg:p-7 sticky top-24 shadow-2xl">
+          <div class="flex items-center justify-between pb-4 border-b border-white/10 mb-5">
+            <div class="flex items-center gap-2">
+              <span class="text-accentyellow">✦</span>
+              <span class="text-xs font-bold text-accentyellow uppercase tracking-wider font-brand">Live AI Concept Spec</span>
+            </div>
+            <span class="text-[11px] text-white/50">즉시 시뮬레이션 반영됨</span>
+          </div>
+
+          <div class="mb-6">
+            <div class="text-xs text-white/60 mb-1">설계된 팝업 타이틀 안</div>
+            <h3 id="simTitle" class="text-xl font-black text-white">PROJECT : [다크 판타지 RPG]</h3>
+            <div class="text-xs text-white/70 mt-1">
+              공간 테마: <span id="simKeyword" class="text-accentyellow font-medium">고딕 석조 · 연금술 포션 · 비밀 서고</span>
+            </div>
+          </div>
+
+          <div class="space-y-3.5 mb-6">
+            <div class="p-3.5 rounded-xl bg-white/[0.03] border border-white/10 flex items-center justify-between">
+              <span class="text-xs text-white/70">예상 시공/외주 절감 효과</span>
+              <span id="simSavings" class="font-brand font-bold text-sm text-accentyellow tabular-nums">약 1,200만원 절감</span>
+            </div>
+            <div class="p-3.5 rounded-xl bg-white/[0.03] border border-white/10 flex items-center justify-between">
+              <span class="text-xs text-white/70">권장 공간 규모 및 위치</span>
+              <span id="simScale" class="font-bold text-xs text-white">합정/홍대 팝업 카페</span>
+            </div>
+            <div class="p-3.5 rounded-xl bg-white/[0.03] border border-white/10">
+              <div class="text-xs text-white/70 mb-1">추천 기획 디테일</div>
+              <div id="simFocus" class="text-xs text-white/90 leading-relaxed">스토리텔링 음료 3종 + 특전 디저트 세트 + 코스터 패키지</div>
+            </div>
+          </div>
+
+          <div class="space-y-2 mb-7 text-xs text-white/70">
+            <div class="flex items-center gap-2">
+              <span class="text-accentyellow">✓</span>
+              <span>3일 이내 공간 3D 렌더링 & 무드보드 무상 전달</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-accentyellow">✓</span>
+              <span>홍대·합정 상권 검증된 F&B 공간 다이렉트 매칭</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-accentyellow">✓</span>
+              <span>초기 컨설팅 및 견적 분석 100% 무료 지원</span>
+            </div>
+          </div>
+
+          <button onclick="applySimToInquiry()" class="w-full py-4 rounded-xl bg-accentyellow hover:bg-white text-black font-bold text-sm flex items-center justify-center gap-2 transition-all duration-200 transform hover:scale-[1.01] shadow-lg cursor-pointer">
+            <span>이 컨셉으로 무료 기획 컨설팅 신청</span>
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+          <div class="text-[11px] text-white/40 text-center mt-2.5">
+            * 선택하신 기획 스펙이 상담 신청서에 자동 반영됩니다.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================== -->
+  <!-- 6. 신뢰 구축 (Trust & Evidence)                           -->
+  <!-- ======================================================== -->
+  <section id="trust" class="py-24 px-4 sm:px-6 lg:px-8 bg-[#121216] relative border-t border-white/5">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="text-xs font-bold tracking-[0.2em] text-accentyellow uppercase font-brand block mb-3">
+          Trust & Quantified Track Record
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-black text-white tracking-tight mb-4">
+          검증된 디렉터, 확실한 성과
+        </h2>
+        <p class="text-sm sm:text-base text-white/70 max-w-2xl mx-auto">
+          감에만 의존하지 않고, 데이터와 정량적 성과로 증명하는 팝업 경험을 만듭니다.
+        </p>
+      </div>
+
+      <!-- Numbers Grid -->
+      <div class="grid md:grid-cols-2 gap-6 sm:gap-8 mb-12">
+        <div class="bg-[#18181F] border border-white/10 rounded-2xl p-8 sm:p-10 text-center relative overflow-hidden group hover:border-accentyellow/50 transition-all">
+          <div class="text-5xl sm:text-6xl font-black text-accentyellow mb-3 font-brand tabular-nums tracking-tight">400+</div>
+          <div class="text-lg font-bold text-white mb-2">단일 행사 총괄 집객 (명)</div>
+          <p class="text-xs sm:text-sm text-white/60 max-w-xs mx-auto leading-relaxed">
+            사전 예약 개시 15분 만에 타임슬롯 매진. 팬덤의 현장 체류 시간을 2.5배 늘린 밀도 높은 공간 기획.
+          </p>
+        </div>
+
+        <div class="bg-[#18181F] border border-white/10 rounded-2xl p-8 sm:p-10 text-center relative overflow-hidden group hover:border-accentyellow/50 transition-all">
+          <div class="text-5xl sm:text-6xl font-black text-accentyellow mb-3 font-brand tabular-nums tracking-tight">65%</div>
+          <div class="text-lg font-bold text-white mb-2">제작비 / 견적 절감 달성률</div>
+          <p class="text-xs sm:text-sm text-white/60 max-w-xs mx-auto leading-relaxed">
+            다단계 대행사 마진 제거 및 모듈형 조형 연출을 통해 절감된 비용을 오리지널 굿즈 품질에 온전히 재투자.
+          </p>
+        </div>
+      </div>
+
+      <!-- 3 Credentials -->
+      <div class="grid sm:grid-cols-3 gap-5 mb-14">
+        <div class="p-6 rounded-2xl bg-white/[0.02] border border-white/10 flex items-start gap-4">
+          <div class="w-10 h-10 rounded-xl bg-accentyellow/10 border border-accentyellow/20 flex items-center justify-center text-accentyellow shrink-0 font-bold">
+            ★
+          </div>
+          <div>
+            <div class="text-sm font-bold text-white mb-1">KOCCA 지원 사업 연계</div>
+            <div class="text-xs text-white/60 leading-relaxed">한국콘텐츠진흥원 지원 사업 선정 및 공신력 있는 기획 프로세스 확립</div>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-white/[0.02] border border-white/10 flex items-start gap-4">
+          <div class="w-10 h-10 rounded-xl bg-accentyellow/10 border border-accentyellow/20 flex items-center justify-center text-accentyellow shrink-0 font-bold">
+            📍
+          </div>
+          <div>
+            <div class="text-sm font-bold text-white mb-1">홍대·합정 전용 인프라</div>
+            <div class="text-xs text-white/60 leading-relaxed">서브컬처 팬덤 집중 상권 내 F&B 매장 및 대관 공간과의 공고한 제휴 네트워크</div>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-white/[0.02] border border-white/10 flex items-start gap-4">
+          <div class="w-10 h-10 rounded-xl bg-accentyellow/10 border border-accentyellow/20 flex items-center justify-center text-accentyellow shrink-0 font-bold">
+            🛡
+          </div>
+          <div>
+            <div class="text-sm font-bold text-white mb-1">현장 클레임 제로화</div>
+            <div class="text-xs text-white/60 leading-relaxed">스마트 웨이팅 동선 및 사전 현장 점검으로 대기 불만 0건, 안전사고 0건 달성</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial -->
+      <div class="bg-[#16161D] border border-white/10 rounded-2xl p-7 sm:p-9 relative">
+        <blockquote class="text-sm sm:text-base text-white/90 leading-relaxed mb-6 font-light">
+          “기존 외주 대행사들은 서브컬처 팬들의 디테일한 미학이나 캐릭터 서사를 전혀 이해하지 못해 늘 싸우다 끝났습니다. 윤예린 디렉터님은 AI 시안으로 첫 미팅 때부터 저희가 머릿속으로만 그리던 마법 공방의 비주얼과 특전 음료를 그대로 구현해 주셨고, 예산도 기존 견적 대비 절반 가까이 아낄 수 있었습니다.”
+        </blockquote>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-amber-400 to-yellow-200 flex items-center justify-center text-black font-bold text-xs font-brand">
+            K.J
+          </div>
+          <div>
+            <div class="text-sm font-bold text-white">김진혁 이사</div>
+            <div class="text-xs text-white/50">서브컬처 모바일 RPG 개발사 사업총괄</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================== -->
+  <!-- 7. 가격 및 조건 (Pricing & Partnership)                   -->
+  <!-- ======================================================== -->
+  <section id="pricing" class="py-24 px-4 sm:px-6 lg:px-8 bg-bgdark relative">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="text-xs font-bold tracking-[0.2em] text-accentyellow uppercase font-brand block mb-3">
+          Partnership & Engagement Models
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-black text-white tracking-tight mb-4">
+          진행 파트너십 안내
+        </h2>
+        <p class="text-sm sm:text-base text-white/70 max-w-2xl mx-auto">
+          팬덤의 몰입형 오프라인 모임부터 기업 IP의 대규모 팝업 스토어까지 맞춤형 모델을 제안합니다.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto items-stretch">
+        <!-- B2C Card -->
+        <div class="bg-cardwhite text-textblack p-8 sm:p-10 rounded-2xl shadow-card flex flex-col justify-between border-t-8 border-gray-900 transition-transform duration-300 hover:-translate-y-1">
+          <div>
+            <div class="text-xs font-bold text-gray-500 font-brand tracking-wider mb-2">B2C FANDOM MODEL</div>
+            <h3 class="text-2xl font-black text-gray-950 mb-1.5">코어 팬덤 프라이빗 팝업</h3>
+            <p class="text-xs sm:text-sm text-gray-600 mb-6">팬카페, 동인지 행사, 버추얼 스트리머 기념 파티</p>
+            <div class="mb-6 pb-6 border-b border-gray-100">
+              <div class="text-3xl sm:text-4xl font-black text-gray-950 tracking-tight">사전 예약제</div>
+              <div class="text-xs text-gray-500 mt-1">* 팬덤 규모 및 회차별 티켓팅 방식으로 정산</div>
+            </div>
+            <ul class="space-y-3.5 text-xs sm:text-sm text-gray-800 font-medium mb-8">
+              <li class="flex items-start gap-2.5">
+                <span class="text-black font-bold">✓</span>
+                <span>세계관 맞춤 시그니처 F&B 패키지 (음료 + 캐릭터 디저트)</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-black font-bold">✓</span>
+                <span>행사 공간 사전 예약 티켓 및 스마트 타임슬롯 관리</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-black font-bold">✓</span>
+                <span>오리지널 특전 굿즈 (아크릴 키링, 엽서, 컵홀더) 제공</span>
+              </li>
+            </ul>
+          </div>
+          <button onclick="openInquiryModal('B2C 코어 팬덤 행사')" class="w-full py-4 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold text-xs sm:text-sm transition-colors flex items-center justify-center gap-1.5 cursor-pointer">
+            <span>팬덤 모임 및 대관 문의하기 →</span>
+          </button>
+        </div>
+
+        <!-- B2B Card (MVP Highlight) -->
+        <div class="bg-cardwhite text-textblack p-8 sm:p-10 rounded-2xl shadow-card flex flex-col justify-between border-t-8 border-accentyellow relative transition-transform duration-300 hover:-translate-y-1">
+          <div class="absolute top-0 right-0 bg-accentyellow text-black text-[11px] font-black px-3.5 py-1.5 rounded-bl-xl tracking-tight">
+            MVP 런칭 한정 무상 혜택
+          </div>
+          <div>
+            <div class="text-xs font-bold text-amber-600 font-brand tracking-wider mb-2">B2B IP HOLDER MODEL</div>
+            <h3 class="text-2xl font-black text-gray-950 mb-1.5">기업 IP 총괄 팝업 대행</h3>
+            <p class="text-xs sm:text-sm text-gray-600 mb-6">중소형 게임사, 웹툰/웹소설 플랫폼, 애니메이션 제작사</p>
+            <div class="mb-6 pb-6 border-b border-gray-100">
+              <div class="text-3xl sm:text-4xl font-black text-gray-950 tracking-tight">초기 컨설팅 무료</div>
+              <div class="text-xs text-amber-700 font-semibold mt-1">* 3일 이내 AI 사전 무드보드 & 65% 절감 견적서 무상 제공</div>
+            </div>
+            <ul class="space-y-3.5 text-xs sm:text-sm text-gray-800 font-medium mb-8">
+              <li class="flex items-start gap-2.5">
+                <span class="text-amber-600 font-bold">✓</span>
+                <span>팝업 공간 기획 및 공간 조형 A to Z 원스톱 대행</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-amber-600 font-bold">✓</span>
+                <span>AI 프로토타이핑 기술 기반 초기 3D 무드보드 제공</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-amber-600 font-bold">✓</span>
+                <span>홍대·합정 특화 상권 F&B 제휴 매장 및 동선 설계</span>
+              </li>
+            </ul>
+          </div>
+          <button onclick="openInquiryModal('B2B IP 홀더 팝업 대행')" class="w-full py-4 rounded-xl bg-accentyellow hover:bg-black hover:text-accentyellow text-black font-black text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-1.5 shadow-md cursor-pointer">
+            <span>무료 컨설팅 & 견적 신청하기 →</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================== -->
+  <!-- 8. FAQ Accordion                                          -->
+  <!-- ======================================================== -->
+  <section class="py-24 px-4 sm:px-6 lg:px-8 bg-[#121216] border-t border-white/5 relative">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-14">
+        <span class="text-xs font-bold tracking-[0.2em] text-accentyellow uppercase font-brand block mb-3">
+          Frequently Asked Questions
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-black text-white tracking-tight mb-4">자주 묻는 질문</h2>
+        <p class="text-sm sm:text-base text-white/70 max-w-xl mx-auto">
+          팝업 프로젝트 진행 시 가장 궁금해하시는 핵심 사항들을 정리했습니다.
+        </p>
+      </div>
+
+      <div class="space-y-4">
+        <!-- FAQ 1 -->
+        <div class="faq-item bg-[#18181F] border border-white/10 rounded-2xl overflow-hidden">
+          <button onclick="toggleFaq(this)" class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 cursor-pointer hover:bg-white/[0.02]">
+            <span class="font-bold text-sm sm:text-base text-white">팝업 프로젝트 기획 착수부터 오픈까지 최소 준비 기간은 얼마나 걸리나요?</span>
+            <span class="faq-icon text-accentyellow font-bold text-lg">▾</span>
+          </button>
+          <div class="faq-answer px-6 pb-6 pt-2 text-xs sm:text-sm text-white/75 leading-relaxed border-t border-white/5">
+            평균적으로 3~5주가 소요됩니다. 윤예린 디렉터는 AI 프로토타이핑을 도입하여 통상 2~3주가 걸리던 초기 기획 및 무드보드 확정 과정을 단 3일 이내로 단축합니다. 따라서 타이트한 신작 런칭 일정이나 기념일에도 안정적으로 오픈이 가능합니다.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item bg-[#18181F] border border-white/10 rounded-2xl overflow-hidden">
+          <button onclick="toggleFaq(this)" class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 cursor-pointer hover:bg-white/[0.02]">
+            <span class="font-bold text-sm sm:text-base text-white">어떻게 기존 외주 대행사 대비 제작비를 최대 65%까지 절감할 수 있나요?</span>
+            <span class="faq-icon text-accentyellow font-bold text-lg">▸</span>
+          </button>
+          <div class="faq-answer hidden px-6 pb-6 pt-2 text-xs sm:text-sm text-white/75 leading-relaxed border-t border-white/5">
+            첫째, 1회용 고비용 목공 시공 대신 재사용 가능한 모듈형 조형물과 프로젝션/조명 연출을 결합합니다. 둘째, 다단계 하청 외주 마진을 제거하고 디렉터가 공간, F&B, MD를 원스톱 총괄합니다. 셋째, 홍대·합정의 기존 파트너 F&B 매장 인프라를 활용해 거액의 공실 대관 보증금을 아낍니다.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item bg-[#18181F] border border-white/10 rounded-2xl overflow-hidden">
+          <button onclick="toggleFaq(this)" class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 cursor-pointer hover:bg-white/[0.02]">
+            <span class="font-bold text-sm sm:text-base text-white">기존 카페 팝업처럼 캔음료에 스티커만 붙이는 방식과 무엇이 다른가요?</span>
+            <span class="faq-icon text-accentyellow font-bold text-lg">▸</span>
+          </button>
+          <div class="faq-answer hidden px-6 pb-6 pt-2 text-xs sm:text-sm text-white/75 leading-relaxed border-t border-white/5">
+            윤예린 디렉터의 F&B 기획은 캐릭터의 퍼스널 컬러, 서사, 마법/스킬 이펙트를 맛과 시각적 레이어(글리터, 허브 가니시, 그라데이션)로 구현하는 독점 커스텀 레시피입니다. 전담 믹솔로지스트와 협업하여 인스타그래머블하면서도 회전율이 빠른 제조 공정을 구축합니다.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item bg-[#18181F] border border-white/10 rounded-2xl overflow-hidden">
+          <button onclick="toggleFaq(this)" class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 cursor-pointer hover:bg-white/[0.02]">
+            <span class="font-bold text-sm sm:text-base text-white">B2B 기업이 아닌 개인 코어 팬덤이나 버추얼 스트리머 팬클럽도 의뢰할 수 있나요?</span>
+            <span class="faq-icon text-accentyellow font-bold text-lg">▸</span>
+          </button>
+          <div class="faq-answer hidden px-6 pb-6 pt-2 text-xs sm:text-sm text-white/75 leading-relaxed border-t border-white/5">
+            네, 가능합니다. B2C 코어 팬덤을 위한 사전 예약제 패키지를 운영하고 있어, 팬카페 대관 모임, 동인지 온리전, 생일 카페 등에서도 고품질의 세계관 연출과 특전 굿즈 패키지를 합리적인 비용으로 진행하실 수 있습니다.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================== -->
+  <!-- 9. 클로징 및 CTA                                          -->
+  <!-- ======================================================== -->
+  <section id="cta" class="hero-closing-bg relative py-32 px-4 sm:px-6 lg:px-8 text-center overflow-hidden border-t border-white/10">
+    <div class="max-w-3xl mx-auto relative z-10">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-accentyellow/10 border border-accentyellow/30 backdrop-blur-md mb-6">
+        <span class="text-accentyellow">✦</span>
+        <span class="text-xs font-bold tracking-[0.18em] text-accentyellow uppercase font-brand">
+          Ready to Immerge Your Fandom
+        </span>
+      </div>
+
+      <h2 class="text-3xl sm:text-5xl font-black text-white tracking-tight leading-tight mb-6">
+        당신의 IP를 메이저 문화로<br />
+        <span class="text-accentyellow">도약시킬 시간입니다.</span>
+      </h2>
+
+      <p class="text-base sm:text-lg text-white/80 max-w-xl mx-auto leading-relaxed mb-10 font-light">
+        MVP 단기 팝업 시범 운영 기간 한정.<br />
+        지금 바로 프로젝트 기획을 의뢰하고 <strong class="text-white font-semibold">초기 AI 프로토타이핑 무상 혜택</strong>을 선점하세요.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
+        <button onclick="openInquiryModal('B2B IP 홀더 팝업 대행')" class="w-full sm:w-auto px-10 py-5 rounded-full bg-accentyellow hover:bg-white text-black font-black text-lg transition-all duration-300 transform hover:scale-105 shadow-[0_0_30px_rgba(254,229,0,0.4)] flex items-center justify-center gap-2 cursor-pointer">
+          <span>프로젝트 기획 논의하기</span>
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+        </button>
+
+        <a href="mailto:yerini98@gmail.com?subject=[서브컬처%20팝업%20기획%20문의]" class="w-full sm:w-auto px-8 py-5 rounded-full bg-white/10 hover:bg-white/20 text-white font-bold text-sm transition-colors border border-white/20 backdrop-blur-md flex items-center justify-center gap-2">
+          <span>이메일 직접 발송</span>
+        </a>
+      </div>
+
+      <p class="mt-8 text-xs text-white/50">
+        * 신청서 접수 시 24시간 이내에 윤예린 디렉터가 직접 검토 후 유선 또는 메일로 회신드립니다.
+      </p>
+    </div>
+  </section>
+
+  <!-- ======================================================== -->
+  <!-- 10. Footer                                                -->
+  <!-- ======================================================== -->
+  <footer class="bg-[#0A0A0C] border-t border-white/10 text-white/60 py-16 px-4 sm:px-6 lg:px-8 text-xs">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-12 pb-12 border-b border-white/10">
+        <div>
+          <div class="font-brand font-black italic text-xl text-white tracking-tighter mb-2">
+            Y.E.RIN <span class="not-italic text-xs font-normal text-white/50 tracking-normal ml-1">DIRECTOR</span>
+          </div>
+          <p class="text-white/60 text-xs sm:text-sm max-w-md leading-relaxed">
+            서브컬처 IP 몰입경험 디렉터 윤예린 | 팬덤 행사 및 팝업 스토어, 세계관 맞춤 시그니처 F&B 총괄 기획
+          </p>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-6 text-xs text-white/70">
+          <a href="#problem" class="hover:text-white transition-colors">문제 진단</a>
+          <a href="#solution" class="hover:text-white transition-colors">솔루션</a>
+          <a href="#portfolio" class="hover:text-white transition-colors">포트폴리오</a>
+          <a href="#simulator" class="hover:text-white transition-colors">AI 프로토타이핑</a>
+          <a href="#trust" class="hover:text-white transition-colors">실적·신뢰</a>
+          <a href="#pricing" class="hover:text-white transition-colors">파트너십</a>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-[11px] text-white/50">
+        <div>
+          <div class="text-white/80 font-bold mb-1">총괄 디렉터 정보</div>
+          <div>디렉터: 윤예린 (Yerin Yoon)</div>
+          <div>전문 분야: 서브컬처 IP 오프라인 팝업 및 F&B 경험 총괄 기획</div>
+          <div>상권 거점: 서울특별시 마포구 홍대·합정 서브컬처 인프라 벨트</div>
+        </div>
+
+        <div>
+          <div class="text-white/80 font-bold mb-1">공식 문의 & 파트너십</div>
+          <div>이메일: yerini98@gmail.com</div>
+          <div>상담 채널: 카카오톡플러스친구 1:1 고객문의 지원</div>
+          <div>협업 제휴: B2B IP 홀더, 게임사, 웹툰사, 애니메이션 레이블, 코어 팬덤</div>
+        </div>
+
+        <div>
+          <div class="text-white/80 font-bold mb-1">공공 지원 & 인증 실적</div>
+          <div>한국콘텐츠진흥원(KOCCA) 지원 사업 연계</div>
+          <div>서브컬처 맞춤형 AI 프로토타이핑 워크플로우 특화</div>
+          <div class="mt-2 text-white/30">
+            © 2026 Yerin Yoon. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================================================== -->
+  <!-- 11. KakaoTalk Floating Button (Reference Image Benchmark) -->
+  <!-- ======================================================== -->
+  <div class="fixed bottom-6 right-5 z-40">
+    <button onclick="toggleKakaoDrawer()" class="group flex items-center gap-2.5 bg-accentyellow hover:bg-[#ffe812] text-black pl-3 pr-4 py-2.5 rounded-full shadow-[0_6px_20px_rgba(0,0,0,0.35)] hover:shadow-[0_8px_25px_rgba(254,229,0,0.45)] transition-all duration-200 transform hover:scale-105 cursor-pointer border border-[#ebcf00]" aria-label="1:1 고객문의 카카오톡플러스친구">
+      <div class="w-8 h-8 rounded-full bg-[#3A1D1D] text-accentyellow flex items-center justify-center font-black text-[10px] tracking-tighter shrink-0">
+        TALK
+      </div>
+      <div class="text-left leading-tight">
+        <div class="font-extrabold text-xs text-black">1:1 고객문의</div>
+        <div class="text-[10px] text-black/75 font-medium">카카오톡플러스친구</div>
+      </div>
+    </button>
+  </div>
+
+  <!-- Kakao Quick Drawer Modal -->
+  <div id="kakaoDrawer" class="hidden fixed bottom-22 right-5 z-40 w-80 sm:w-88 bg-[#18181F] border border-white/15 rounded-3xl p-5 shadow-2xl text-white">
+    <div class="flex items-center justify-between pb-3 border-b border-white/10 mb-4">
+      <div class="flex items-center gap-2">
+        <div class="w-6 h-6 rounded-full bg-accentyellow text-black flex items-center justify-center text-[9px] font-black">TALK</div>
+        <div class="font-bold text-xs text-white">윤예린 디렉터 1:1 상담 채널</div>
+      </div>
+      <button onclick="toggleKakaoDrawer()" class="text-white/50 hover:text-white p-1">✕</button>
+    </div>
+    <div class="space-y-3 mb-5">
+      <div class="flex items-center gap-2 text-xs text-accentyellow">
+        <span>🕒 평일 10:00 - 19:00 (실시간 회신 가능)</span>
+      </div>
+      <p class="text-xs text-white/80 leading-relaxed">
+        서브컬처 팝업 스토어 기획, 공간 대관, F&B 메뉴 개발 등 궁금하신 점을 편하게 남겨주세요.
+      </p>
+    </div>
+    <div class="space-y-2">
+      <button onclick="toggleKakaoDrawer(); openInquiryModal('카카오톡 빠른 상담');" class="w-full py-3 rounded-xl bg-accentyellow hover:bg-white text-black font-bold text-xs transition-colors flex items-center justify-center gap-1.5 cursor-pointer">
+        <span>팝업 기획 의뢰서 작성하기</span>
+      </button>
+      <a href="mailto:yerini98@gmail.com?subject=[카카오톡%20문의%20연계]%20팝업%20기획%20상담" class="w-full py-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-white font-medium text-xs border border-white/10 transition-colors flex items-center justify-center gap-1.5">
+        <span>이메일로 문의 남기기</span>
+      </a>
+    </div>
+    <div class="mt-4 pt-3 border-t border-white/5 text-[10px] text-white/40 text-center">
+      디렉터 공식 연락처 : yerini98@gmail.com
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- 12. Inquiry Consultation Modal                             -->
+  <!-- ======================================================== -->
+  <div id="inquiryModal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-black/80 backdrop-blur-md overflow-y-auto">
+    <div class="relative w-full max-w-xl bg-[#16161C] border border-white/15 rounded-3xl p-6 sm:p-8 shadow-2xl text-white my-8">
+      <button onclick="closeInquiryModal()" class="absolute top-5 right-5 w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors cursor-pointer">✕</button>
+
+      <!-- Form View -->
+      <div id="inquiryFormView">
+        <div class="flex items-center gap-2 mb-2">
+          <span class="text-accentyellow">✦</span>
+          <span class="text-xs font-bold text-accentyellow uppercase font-brand tracking-wider">Direct Consultation Request</span>
+        </div>
+        <h3 class="text-2xl font-black text-white tracking-tight mb-2">서브컬처 팝업 프로젝트 의뢰서</h3>
+        <p class="text-xs sm:text-sm text-white/60 mb-6">초기 상담 및 AI 사전 무드보드 제공은 100% 무료로 진행됩니다.</p>
+
+        <form onsubmit="handleInquirySubmit(event)" class="space-y-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-white/70 mb-1.5">성함 / 담당자명 *</label>
+              <input type="text" id="formName" required placeholder="예: 홍길동 팀장" class="w-full px-3.5 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white text-sm focus:outline-none focus:border-accentyellow" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-white/70 mb-1.5">소속 / 기업명 / 팬덤명 *</label>
+              <input type="text" id="formOrg" required placeholder="예: (주)스튜디오 네오" class="w-full px-3.5 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white text-sm focus:outline-none focus:border-accentyellow" />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-white/70 mb-1.5">연락처 (휴대폰) *</label>
+              <input type="tel" id="formPhone" required placeholder="010-0000-0000" class="w-full px-3.5 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white text-sm focus:outline-none focus:border-accentyellow" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-white/70 mb-1.5">이메일 주소 *</label>
+              <input type="email" id="formEmail" required placeholder="contact@company.com" class="w-full px-3.5 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white text-sm focus:outline-none focus:border-accentyellow" />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-white/70 mb-1.5">의뢰 프로젝트 유형</label>
+              <select id="formPlan" class="w-full px-3.5 py-2.5 rounded-xl bg-[#1F1F26] border border-white/10 text-white text-sm focus:outline-none focus:border-accentyellow">
+                <option value="B2B IP 홀더 팝업 대행">B2B IP 홀더 팝업 총괄 대행</option>
+                <option value="B2C 코어 팬덤 행사">B2C 코어 팬덤 프라이빗 팝업</option>
+                <option value="시그니처 F&B 레시피 개발">시그니처 F&B 단독 개발</option>
+                <option value="공간 무드보드 및 컨설팅">공간 무드보드 & 렌더링 컨설팅</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-white/70 mb-1.5">희망 행사 시기</label>
+              <select id="formTimeline" class="w-full px-3.5 py-2.5 rounded-xl bg-[#1F1F26] border border-white/10 text-white text-sm focus:outline-none focus:border-accentyellow">
+                <option value="1개월 이내 (긴급)">1개월 이내 (긴급 착수)</option>
+                <option value="2~3개월 이내" selected>2~3개월 이내</option>
+                <option value="4~6개월 이내">4~6개월 이내</option>
+                <option value="시기 미정 / 사전 문의">시기 미정 / 사전 견적 문의</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-white/70 mb-1.5">IP 세계관 설명 및 요청사항</label>
+            <textarea id="formMessage" rows="3" placeholder="다루고자 하는 IP의 장르, 캐릭터 특징, 원하는 팝업 분위기나 예상 예산 범위를 편하게 적어주세요." class="w-full px-3.5 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white text-sm focus:outline-none focus:border-accentyellow resize-none"></textarea>
+          </div>
+
+          <button type="submit" class="w-full py-4 rounded-xl bg-accentyellow hover:bg-white text-black font-black text-sm transition-all duration-200 shadow-lg cursor-pointer">
+            프로젝트 기획 의뢰서 제출하기
+          </button>
+          <p class="text-[11px] text-white/40 text-center mt-2">
+            개인정보는 프로젝트 상담 목적으로만 활용되며 안전하게 보호됩니다.
+          </p>
+        </form>
+      </div>
+
+      <!-- Success Confirmation View -->
+      <div id="inquirySuccessView" class="hidden text-center py-8">
+        <div class="w-16 h-16 rounded-full bg-accentyellow/20 text-accentyellow flex items-center justify-center mx-auto mb-4 border border-accentyellow/40 text-2xl font-bold">
+          ✓
+        </div>
+        <h3 class="text-2xl font-black text-white mb-2">기획 의뢰서가 정상 접수되었습니다</h3>
+        <p class="text-sm text-white/70 max-w-md mx-auto leading-relaxed mb-6">
+          제출해주신 프로젝트 내용을 윤예린 디렉터가 직접 검토 중입니다. 영업일 기준 24시간 이내에 연락드리겠습니다.
+        </p>
+        <button onclick="closeInquiryModal()" class="px-8 py-3 rounded-full bg-accentyellow text-black font-bold text-xs cursor-pointer hover:bg-white">
+          확인 완료
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- 13. Case Study Detail Modal                                -->
+  <!-- ======================================================== -->
+  <div id="portfolioModal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-black/85 backdrop-blur-md overflow-y-auto">
+    <div class="relative w-full max-w-3xl bg-[#18181D] border border-white/15 rounded-3xl overflow-hidden shadow-2xl my-8 text-white">
+      <button onclick="closePortfolioModal()" class="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-black/60 hover:bg-black/90 text-white flex items-center justify-center transition-colors cursor-pointer">✕</button>
+      
+      <div class="relative aspect-[16/9] w-full bg-neutral-900">
+        <img id="modalImg" src="" alt="" class="w-full h-full object-cover" />
+        <div class="absolute inset-0 bg-gradient-to-t from-[#18181D] via-transparent to-black/40"></div>
+        <div class="absolute bottom-6 left-6 right-6">
+          <span id="modalCategory" class="px-3 py-1 rounded bg-accentyellow text-black text-xs font-bold tracking-wider uppercase mb-2 inline-block"></span>
+          <h3 id="modalTitle" class="text-2xl sm:text-3xl font-black text-white"></h3>
+          <div id="modalClient" class="text-xs text-white/70 mt-1"></div>
+        </div>
+      </div>
+
+      <div class="p-6 sm:p-8 space-y-6">
+        <div>
+          <h4 class="text-xs font-bold text-accentyellow uppercase tracking-wider mb-2 font-brand">프로젝트 개요 (Overview)</h4>
+          <p id="modalOverview" class="text-sm sm:text-base text-white/80 leading-relaxed"></p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div class="p-4 rounded-xl bg-white/[0.03] border border-white/10">
+            <div class="text-xs font-bold text-red-400 mb-1">기존의 문제점 (Challenge)</div>
+            <p id="modalChallenge" class="text-xs sm:text-sm text-white/70 leading-relaxed"></p>
+          </div>
+          <div class="p-4 rounded-xl bg-white/[0.03] border border-white/10">
+            <div class="text-xs font-bold text-accentyellow mb-1">디렉터의 해결책 (Director's Solution)</div>
+            <p id="modalSolution" class="text-xs sm:text-sm text-white/70 leading-relaxed"></p>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="text-xs font-bold text-white/50 uppercase tracking-wider mb-3 font-brand">검증된 성과 지표 (Verified Results)</h4>
+          <div id="modalResults" class="grid sm:grid-cols-3 gap-3"></div>
+        </div>
+
+        <div class="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div class="text-xs text-white/60">유사한 규모 및 장르의 팝업 프로젝트 기획이 필요하신가요?</div>
+          <button onclick="closePortfolioModal(); openInquiryModal('포트폴리오 유사 프로젝트 문의');" class="w-full sm:w-auto px-6 py-3 rounded-full bg-accentyellow hover:bg-white text-black font-bold text-xs transition-colors cursor-pointer">
+            이 프로젝트처럼 기획 문의하기
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- 14. Integrated Client Scripts                             -->
+  <!-- ======================================================== -->
+  <script>
+    // Portfolio Data
+    const portfolioData = [
+      {
+        title: 'HONGDAE ARCHIVE : 완벽한 세계관 구현',
+        category: '공간 무드보드 & 연출',
+        client: 'B2B 게임 IP 퍼블리셔',
+        image: '/src/assets/images/regenerated_image_1794013841232.png',
+        overview: '사이버펑크 및 서브컬처 애니메이션 IP의 신작 출시를 기념한 홍대 인근 45평 규모 몰입형 팝업 전시.',
+        challenge: '기존 대관 상가의 밋밋한 화이트 인테리어로 인해 IP 고유의 딥한 세계관과 몰입감이 분절되는 문제.',
+        solution: 'AI 기반 사전 무드보드 렌더링으로 3일 만에 비주얼 기조를 확립하고, 모듈형 네온 사이니지와 조명 디렉팅으로 시각 몰입도를 극대화.',
+        results: ['단일 행사 총 누적 방문객 420명 달성', '외주 시공비 대비 62% 예산 절감', '포토존 인증 게시물 850+건 생성']
+      },
+      {
+        title: 'WANDERLUST CAFE : 맞춤형 시그니처 F&B',
+        category: '시그니처 F&B 디렉팅',
+        client: 'B2C 코어 팬덤 & 웹소설 제작사',
+        image: '/src/assets/images/portfolio_signature_fnb_1794010872528.jpg',
+        overview: '판타지 RPG 세계관의 연금술 공방 콘셉트를 적용한 테마 카페 식음료 메뉴 R&D 및 제조 공정 총괄.',
+        challenge: '라벨만 바꾼 기성 음료에 실망하는 팬덤의 높은 미식 눈높이와 좁은 주방 동선에서의 신속 제조 병목.',
+        solution: '서브컬처 전문 F&B 믹솔로지스트 협업을 통해 레이어드 컬러 티와 식용 글리터를 활용한 4종 시그니처 음료 & 오리지널 아트 타르트 개발.',
+        results: ['시그니처 세트 메뉴 1,200잔 전량 완판', '단순 음료 대비 객단가 24,000원으로 320% 상승', '재방문 고객 비율 34% 기록']
+      },
+      {
+        title: 'PINK POP-UP ZONE : 쾌적한 관람 & MD 동선',
+        category: '굿즈 & 캐릭터 스토어',
+        client: '캐릭터 라이선싱 IP 에이전시',
+        image: '/src/assets/images/portfolio_pink_merchandise_1794010872426.jpg',
+        overview: '캐릭터 IP 팝업스토어에서 굿즈 구매와 포토존 관람이 뒤섞이지 않도록 공간을 이원화한 원웨이 동선 설계.',
+        challenge: '좁은 매장에 인파가 몰려 계산 대기열이 2시간 이상 지연되고 안전사고 위험이 발생하는 문제.',
+        solution: '현장 모바일 웨이팅 번호표 도입 및 바코드 사전 스캔 장바구니 시스템 적용으로 1인당 결제 시간을 45초로 단축.',
+        results: ['평균 대기 시간 90분 → 25분으로 72% 단축', 'MD 굿즈 전체 라인업 96% 매진', '현장 클레임 제로 달성']
+      },
+      {
+        title: 'STAND CONCEPT : 브랜드 감성 극대화',
+        category: '하이엔드 콘셉트 스토어',
+        client: '서브컬처 패션 브랜드 & 버추얼 레이블',
+        image: '/src/assets/images/portfolio_minimal_display_1794010872333.jpg',
+        overview: '서브컬처 패션 캡슐 컬렉션을 현대적이고 미니멀한 무드로 재해석한 플래그십 쇼룸.',
+        challenge: '과도하게 화려한 시각물이 오히려 패션 아이템의 감도를 해치고, 비싼 목공 시공비로 인한 예산 초과.',
+        solution: '모듈형 기성 선반 구조체에 맞춤형 아치 패널을 결합하는 하이브리드 시공법으로 비용 절감과 하이엔드 무드를 동시 구현.',
+        results: ['목공 시공 견적 2,800만원 → 980만원 (65% 절감)', '패션 인플루언서 자발적 리뷰 45건', '현장 선주문 180% 초과 달성']
+      }
+    ];
+
+    // Mobile Menu
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('hidden');
+    }
+
+    // Portfolio Filter
+    function filterPortfolio(cat) {
+      const cards = document.querySelectorAll('.portfolio-card');
+      const buttons = document.querySelectorAll('.filter-btn');
+
+      buttons.forEach(btn => {
+        if (btn.dataset.filter === cat) {
+          btn.className = 'filter-btn active-filter px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all duration-200 cursor-pointer bg-accentyellow text-black shadow-md';
+        } else {
+          btn.className = 'filter-btn px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all duration-200 cursor-pointer bg-white/5 text-white/70 hover:bg-white/10 hover:text-white border border-white/10';
+        }
+      });
+
+      cards.forEach(card => {
+        if (cat === 'all' || card.dataset.category === cat) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    }
+
+    // Portfolio Expand '+'
+    let isExpanded = false;
+    function togglePortfolioExpand() {
+      isExpanded = !isExpanded;
+      const icon = document.getElementById('expandPortfolioIcon');
+      const text = document.getElementById('expandPortfolioText');
+      if (isExpanded) {
+        icon.style.transform = 'rotate(45deg)';
+        text.innerText = '접기 (초기 4개 항목 표시)';
+      } else {
+        icon.style.transform = 'rotate(0deg)';
+        text.innerText = '더보기 (클릭 시 프로젝트 전체 확인)';
+      }
+    }
+
+    // Portfolio Modal
+    function openPortfolioModal(idx) {
+      const data = portfolioData[idx];
+      if (!data) return;
+      document.getElementById('modalImg').src = data.image;
+      document.getElementById('modalCategory').innerText = data.category;
+      document.getElementById('modalTitle').innerText = data.title;
+      document.getElementById('modalClient').innerText = '클라이언트 유형: ' + data.client;
+      document.getElementById('modalOverview').innerText = data.overview;
+      document.getElementById('modalChallenge').innerText = data.challenge;
+      document.getElementById('modalSolution').innerText = data.solution;
+
+      const resultsContainer = document.getElementById('modalResults');
+      resultsContainer.innerHTML = data.results.map(r => `
+        <div class="p-3.5 rounded-lg bg-white/5 border border-white/10 flex items-start gap-2">
+          <span class="text-accentyellow font-bold mt-0.5">✓</span>
+          <span class="text-xs text-white/90 font-medium leading-snug">${r}</span>
+        </div>
+      `).join('');
+
+      document.getElementById('portfolioModal').classList.remove('hidden');
+    }
+
+    function closePortfolioModal() {
+      document.getElementById('portfolioModal').classList.add('hidden');
+    }
+
+    // Kakao Drawer
+    function toggleKakaoDrawer() {
+      document.getElementById('kakaoDrawer').classList.toggle('hidden');
+    }
+
+    // Inquiry Modal
+    function openInquiryModal(planType) {
+      if (planType) {
+        document.getElementById('formPlan').value = planType;
+      }
+      document.getElementById('inquiryFormView').classList.remove('hidden');
+      document.getElementById('inquirySuccessView').classList.add('hidden');
+      document.getElementById('inquiryModal').classList.remove('hidden');
+    }
+
+    function closeInquiryModal() {
+      document.getElementById('inquiryModal').classList.add('hidden');
+    }
+
+    function handleInquirySubmit(e) {
+      e.preventDefault();
+      document.getElementById('inquiryFormView').classList.add('hidden');
+      document.getElementById('inquirySuccessView').classList.remove('hidden');
+    }
+
+    // FAQ Accordion
+    function toggleFaq(btn) {
+      const item = btn.closest('.faq-item');
+      const answer = item.querySelector('.faq-answer');
+      const icon = item.querySelector('.faq-icon');
+      const isHidden = answer.classList.contains('hidden');
+
+      document.querySelectorAll('.faq-answer').forEach(a => a.classList.add('hidden'));
+      document.querySelectorAll('.faq-icon').forEach(i => i.innerText = '▸');
+
+      if (isHidden) {
+        answer.classList.remove('hidden');
+        icon.innerText = '▾';
+      }
+    }
+
+    // AI Simulator Real-time Calculation
+    const simPresets = {
+      genres: {
+        'dark-fantasy': { label: '다크 판타지 RPG', keyword: '고딕 석조 · 연금술 포션 · 비밀 서고' },
+        'cyberpunk': { label: '사이버펑크 / SF', keyword: '네온 홀로그램 · 미래형 실험실' },
+        'academy': { label: '아카데미 / 청춘 일상', keyword: '학교 라운지 · 캐릭터 사물함' },
+        'virtual-idol': { label: '버추얼 아이돌', keyword: '라이브 스테이지 · 응원봉 굿즈존' }
+      },
+      scales: {
+        'compact': { label: '합정/홍대 팝업 카페', savings: '약 1,200만원 절감' },
+        'medium': { label: '홍대 메인 상권 단독 매장', savings: '약 2,400만원 절감' },
+        'flagship': { label: '성수/강남 플래그십', savings: '약 4,500만원 절감' }
+      },
+      focuses: {
+        'fnb': { highlight: '스토리텔링 음료 3종 + 특전 디저트 세트 + 코스터 패키지' },
+        'exhibition': { highlight: '등신대/디오라마 조형 연출 + 미션 스탬프 투어 + 기념 티켓' },
+        'goods': { highlight: '사전 예약 번호표 연동 + 원웨이 굿즈 쇼핑존 + 럭키드로우' }
+      }
+    };
+
+    let curGenre = 'dark-fantasy';
+    let curScale = 'compact';
+    let curFocus = 'fnb';
+
+    function updateSimDisplay() {
+      const g = simPresets.genres[curGenre];
+      const s = simPresets.scales[curScale];
+      const f = simPresets.focuses[curFocus];
+
+      document.getElementById('simTitle').innerText = 'PROJECT : [' + g.label + ']';
+      document.getElementById('simKeyword').innerText = g.keyword;
+      document.getElementById('simSavings').innerText = s.savings;
+      document.getElementById('simScale').innerText = s.label;
+      document.getElementById('simFocus').innerText = f.highlight;
+    }
+
+    function selectGenre(key) {
+      curGenre = key;
+      document.querySelectorAll('.genre-btn').forEach(b => {
+        if (b.dataset.genre === key) {
+          b.className = 'genre-btn active p-3.5 rounded-xl text-left border transition-all duration-200 cursor-pointer bg-white/10 border-accentyellow text-white ring-1 ring-accentyellow';
+        } else {
+          b.className = 'genre-btn p-3.5 rounded-xl text-left border transition-all duration-200 cursor-pointer bg-white/[0.02] border-white/5 text-white/70 hover:bg-white/5 hover:text-white';
+        }
+      });
+      updateSimDisplay();
+    }
+
+    function selectScale(key) {
+      curScale = key;
+      document.querySelectorAll('.scale-btn').forEach(b => {
+        if (b.dataset.scale === key) {
+          b.className = 'scale-btn active w-full p-3.5 rounded-xl text-left border flex items-center justify-between transition-all duration-200 cursor-pointer bg-white/10 border-accentyellow text-white ring-1 ring-accentyellow';
+        } else {
+          b.className = 'scale-btn w-full p-3.5 rounded-xl text-left border flex items-center justify-between transition-all duration-200 cursor-pointer bg-white/[0.02] border-white/5 text-white/70 hover:bg-white/5 hover:text-white';
+        }
+      });
+      updateSimDisplay();
+    }
+
+    function selectFocus(key) {
+      curFocus = key;
+      document.querySelectorAll('.focus-btn').forEach(b => {
+        if (b.dataset.focus === key) {
+          b.className = 'focus-btn active w-full p-3.5 rounded-xl text-left border transition-all duration-200 cursor-pointer bg-white/10 border-accentyellow text-white ring-1 ring-accentyellow';
+        } else {
+          b.className = 'focus-btn w-full p-3.5 rounded-xl text-left border transition-all duration-200 cursor-pointer bg-white/[0.02] border-white/5 text-white/70 hover:bg-white/5 hover:text-white';
+        }
+      });
+      updateSimDisplay();
+    }
+
+    function applySimToInquiry() {
+      const g = simPresets.genres[curGenre];
+      const s = simPresets.scales[curScale];
+      const f = simPresets.focuses[curFocus];
+      const conceptText = `[AI 사전 기획] 장르: ${g.label} / 규모: ${s.label} / 집중: ${f.highlight}`;
+      document.getElementById('formMessage').value = conceptText;
+      openInquiryModal('B2B IP 홀더 팝업 대행');
+    }
+  </script>
+</body>
+</html>
