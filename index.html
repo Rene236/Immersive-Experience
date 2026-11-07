@@ -1,0 +1,119 @@
+import { PortfolioItem } from '../types';
+
+export const portfolioItems: PortfolioItem[] = [
+  {
+    id: 'space-immersion',
+    category: 'space',
+    categoryLabel: '공간 무드보드 & 연출',
+    title: 'HONGDAE ARCHIVE',
+    subTitle: '완벽한 세계관 구현',
+    brandBadge: 'ARCHIVE STUDIO',
+    image: '/src/assets/images/regenerated_image_1794013841232.png',
+    stats: '공간 만족도 98.4% · 관람 체류시간 2.5배',
+    description: '기존 카페의 틀을 깬, 특정 IP만을 위한 몰입형 인테리어와 시각적 장치 연출. 네오 도쿄 서브컬처 테마를 살린 스트리트 갤러리형 팝업 스토어.',
+    clientType: 'B2B 게임 IP 퍼블리셔',
+    details: {
+      overview: '사이버펑크 및 서브컬처 애니메이션 IP의 신작 출시를 기념한 홍대 인근 45평 규모 몰입형 팝업 전시.',
+      challenge: '기존 대관 상가의 밋밋한 화이트 인테리어로 인해 IP 고유의 딥한 세계관과 몰입감이 분절되는 문제.',
+      solution: 'AI 기반 사전 무드보드 렌더링으로 3일 만에 비주얼 기조를 확립하고, 모듈형 네온 사이니지와 조명 디렉팅으로 시각 몰입도를 극대화.',
+      results: [
+        '단일 행사 총 누적 방문객 420명 달성',
+        '외주 시공비 대비 62% 예산 절감',
+        '팬덤 커뮤니티 내 포토존 인증 게시물 850+건 생성'
+      ],
+      tags: ['공간 기획', '조명 연출', '네온 사이니지', '홍대 상권'],
+      features: ['맞춤형 포토부스 동선', '세계관 프로젝션 맵핑', '모듈형 어패럴 디스플레이']
+    }
+  },
+  {
+    id: 'signature-fnb',
+    category: 'fnb',
+    categoryLabel: '시그니처 F&B 디렉팅',
+    title: 'WANDERLUST CAFE',
+    subTitle: '맞춤형 시그니처 F&B',
+    brandBadge: 'WANDERLUST',
+    image: '/src/assets/images/portfolio_signature_fnb_1794010872528.jpg',
+    stats: 'F&B 객단가 3.2배 · 전 메뉴 조기 완판',
+    description: '캐릭터의 서사와 세계관을 맛과 비주얼로 풀어낸 독창적인 식음료 메뉴. 컵홀더 스티커만 바꾸는 관행을 탈피한 오리지널 포션 음료 및 캐릭터 타르트 개발.',
+    clientType: 'B2C 코어 팬덤 & 웹소설 제작사',
+    details: {
+      overview: '판타지 RPG 세계관의 연금술 공방 콘셉트를 적용한 테마 카페 식음료 메뉴 R&D 및 제조 공정 총괄.',
+      challenge: '라벨만 바꾼 기성 음료에 실망하는 팬덤의 높은 미식 눈높이와 좁은 주방 동선에서의 신속 제조 병목.',
+      solution: '서브컬처 전문 F&B 믹솔로지스트 협업을 통해 레이어드 컬러 티와 식용 글리터를 활용한 4종 시그니처 음료 & 오리지널 아트 타르트 개발.',
+      results: [
+        '팝업 4일간 시그니처 세트 메뉴 1,200잔 전량 완판',
+        '단순 음료 대비 객단가 24,000원으로 320% 상승',
+        '재방문 고객 비율 34% 기록'
+      ],
+      tags: ['F&B 레시피 개발', '메뉴 디렉팅', '위생/제조 동선', '원가 최적화'],
+      features: ['세계관 스토리텔링 메뉴판', '특전 코스터 증정 패키지', '주방 픽업 병목 제로화']
+    }
+  },
+  {
+    id: 'pink-merchandise',
+    category: 'goods',
+    categoryLabel: '굿즈 & 캐릭터 스토어',
+    title: 'PINK POP-UP ZONE',
+    subTitle: '쾌적한 관람 & MD 동선',
+    brandBadge: 'KAWAII COLLECTIVE',
+    image: '/src/assets/images/portfolio_pink_merchandise_1794010872426.jpg',
+    stats: '대기열 대기시간 70% 단축 · 굿즈 소진율 96%',
+    description: '대기열 최소화 및 효율적인 동선 관리로 팬들의 행사 만족도 극대화. 핑크빛 캐릭터 세계관을 담은 진열대와 오리지널 특전 굿즈 큐레이션.',
+    clientType: '캐릭터 라이선싱 IP 에이전시',
+    details: {
+      overview: '캐릭터 IP 팝업스토어에서 굿즈 구매와 포토존 관람이 뒤섞이지 않도록 공간을 이원화한 원웨이 동선 설계.',
+      challenge: '좁은 매장에 인파가 몰려 계산 대기열이 2시간 이상 지연되고 안전사고 위험이 발생하는 문제.',
+      solution: '현장 모바일 웨이팅 번호표 도입 및 바코드 사전 스캔 장바구니 시스템 적용으로 1인당 결제 시간을 45초로 단축.',
+      results: [
+        '평균 대기 시간 90분 → 25분으로 72% 단축',
+        'MD 굿즈 전체 라인업 96% 매진',
+        '현장 클레임 제로 달성'
+      ],
+      tags: ['MD 큐레이션', '대기열 최적화', '결제 자동화', '안전 관리'],
+      features: ['원웨이(One-way) 관람 동선', '스마트 QR 번호표 연동', '프리미엄 굿즈 진열 쇼케이스']
+    }
+  },
+  {
+    id: 'minimal-boutique',
+    category: 'operations',
+    categoryLabel: '하이엔드 콘셉트 스토어',
+    title: 'STAND CONCEPT',
+    subTitle: '브랜드 감성 극대화',
+    brandBadge: 'ATELIER SELECT',
+    image: '/src/assets/images/portfolio_minimal_display_1794010872333.jpg',
+    stats: '제작비 65% 절감 · SNS 바이럴 1,200건',
+    description: '미술관급 곡선 조형미와 절제된 톤앤매너로 서브컬처 IP의 브랜드 가치를 하이엔드로 끌어올린 셀렉트 팝업 부티크.',
+    clientType: '서브컬처 패션 브랜드 & 버추얼 레이블',
+    details: {
+      overview: '서브컬처 패션 캡슐 컬렉션을 현대적이고 미니멀한 무드로 재해석한 플래그십 쇼룸.',
+      challenge: '과도하게 화려한 시각물이 오히려 패션 아이템의 감도를 해치고, 비싼 목공 시공비로 인한 예산 초과.',
+      solution: '모듈형 기성 선반 구조체에 맞춤형 아치 패널을 결합하는 하이브리드 시공법으로 비용 절감과 하이엔드 무드를 동시 구현.',
+      results: [
+        '전통 목공 시공 견적 2,800만원 → 980만원(65% 절감)',
+        '주요 패션 인플루언서 자발적 방문 및 리뷰 45건',
+        '팝업 현장 선주문 180% 초과 달성'
+      ],
+      tags: ['비용 절감', '모듈 시공', '하이엔드 조명', '패션 팝업'],
+      features: ['무반사 박물관 조명 시스템', '체험형 피팅 라운지', 'VIP 사전 예약 타임슬롯']
+    }
+  }
+];
+
+export const simulationPresets = {
+  genres: [
+    { id: 'dark-fantasy', label: '다크 판타지 RPG', icon: '⚔️', themeColor: '#8B5CF6', keyword: '고딕 석조 · 연금술 포션 · 비밀 서고' },
+    { id: 'cyberpunk', label: '사이버펑크 / SF', icon: '⚡', themeColor: '#06B6D4', keyword: '네온 홀로그램 · 미래형 실험실 · 에너지 큐브' },
+    { id: 'academy', label: '아카데미 / 일상 청춘', icon: '🏫', themeColor: '#10B981', keyword: '학교 라운지 · 캐릭터 사물함 · 청춘 감성 베이커리' },
+    { id: 'virtual-idol', label: '버추얼 아이돌 / 스트리머', icon: '🎤', themeColor: '#EC4899', keyword: '라이브 스테이지 · 응원봉 굿즈존 · 팬레터 우체통' }
+  ],
+  scales: [
+    { id: 'compact', label: '합정/홍대 팝업 카페 (20~35평)', duration: '준비 3~4주', capacity: '시간당 30~50명', savings: '약 1,200만원 절감' },
+    { id: 'medium', label: '홍대 메인 상권 단독 매장 (40~60평)', duration: '준비 5~6주', capacity: '시간당 70~100명', savings: '약 2,400만원 절감' },
+    { id: 'flagship', label: '성수/강남 플래그십 (80평 이상)', duration: '준비 8주 내외', capacity: '시간당 150명+', savings: '약 4,500만원 절감' }
+  ],
+  focuses: [
+    { id: 'fnb', label: '시그니처 F&B 및 미식 경험', highlight: '스토리텔링 음료 3종 + 특전 디저트 세트 + 코스터 패키지' },
+    { id: 'exhibition', label: '몰입형 세계관 전시 & 포토존', highlight: '등신대/디오라마 조형 연출 + 미션 스탬프 투어 + 기념 티켓' },
+    { id: 'goods', label: '한정판 MD 판매 & 팬 페스티벌', highlight: '사전 예약 번호표 연동 + 원웨이 굿즈 쇼핑존 + 럭키드로우' }
+  ]
+};
